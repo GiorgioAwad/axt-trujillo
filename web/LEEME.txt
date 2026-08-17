@@ -1,0 +1,51 @@
+AXT TRUJILLO — CARPETA WEB (para publicar)
+=============================================
+
+Sube TODOS estos archivos juntos a la raíz de tu dominio (mismo nivel,
+sin subcarpetas):
+
+  index.html        → la página web
+  piscina-carriles.jpg → foto de portada (los carriles de la piscina)
+  piscina-sede.jpg     → foto de la sección "La sede"
+  robots.txt         → indica a Google qué puede rastrear
+  sitemap.xml         → mapa del sitio para buscadores
+  manifest.json       → metadatos para "agregar a pantalla de inicio"
+  favicon-32.png       → ícono pequeño de pestaña del navegador
+  favicon-180.png      → ícono para iOS / Android
+  og-image.png        → imagen que se muestra al compartir el link en
+                        WhatsApp, Facebook, Instagram, etc.
+
+  Las dos fotos .jpg son obligatorias: si no las subes, la portada y la
+  sección de la sede se verán en negro. Salieron de tus propias piezas
+  de campaña, así que puedes reemplazarlas por otras cuando quieras —
+  usa el mismo nombre de archivo y una proporción parecida (ancha, tipo
+  1080 x 450) para que no se recorten mal.
+
+IMPORTANTE — antes de publicar, reemplaza el dominio de ejemplo:
+  El archivo usa "https://www.nataciontrujillo.pe/" como dominio oficial
+  en: canonical, Open Graph, Twitter Cards, JSON-LD, sitemap.xml y
+  robots.txt. Búscalo con Ctrl+F / Cmd+F en cada archivo y reemplázalo
+  por tu dominio real una vez que lo tengas.
+
+DATOS QUE FALTAN POR COMPLETAR (búscalos como "PENDIENTE DE COMPLETAR"
+dentro de index.html, cerca del bloque JSON-LD al inicio del archivo):
+  - Correo electrónico del negocio
+  - URL del logo ya hosteado en tu dominio (una vez publicado)
+
+EDITAR TEXTOS, PRECIOS U HORARIOS:
+  Todo eso vive en el bloque "CONFIG" dentro de index.html (búscalo con
+  Ctrl+F). Cambia los valores entre comillas y guarda — no necesitas
+  tocar nada más. Ver los comentarios en español dentro del archivo
+  para más detalle.
+
+  OJO CON EL FORMATO DE LAS HORAS:
+  La sección "El día en el agua" dibuja la gráfica de carriles leyendo
+  las horas que escribas en CONFIG. Mantén el formato
+  "H:MM AM – H:MM PM" (dos puntos entre hora y minutos, y un guion
+  entre las dos horas). Ejemplos que funcionan:
+      "6:00 AM – 9:00 PM"
+      "4:00 – 5:00 PM"
+      "Lunes a Viernes · 7:00 PM – 9:00 PM"
+  El eje de la gráfica se ajusta solo al horario que pongas. Si escribes
+  una hora en otro formato, el texto se sigue mostrando en la página:
+  solo se omite la barra de ese carril.

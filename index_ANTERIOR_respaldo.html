@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- =====================================================================
+     SEO — bloque de constantes editables
+     Si cambias de dominio, teléfono, dirección o redes sociales,
+     actualiza también las mismas constantes dentro de CONFIG (más abajo)
+     y en los archivos robots.txt / sitemap.xml / manifest.json.
+     ===================================================================== -->
+<!-- PENDIENTE DE COMPLETAR: reemplazar por el dominio oficial cuando el sitio esté publicado -->
+<!-- Dominio provisional usado en canonical, Open Graph y JSON-LD: https://www.axttrujillo.com/ -->
+
+<title>Clases de Natación en Trujillo | AXT Trujillo</title>
+<meta name="description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada (26°–27°). Horarios flexibles de 6 AM a 9 PM.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.axttrujillo.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Clases de Natación en Trujillo | AXT Trujillo">
+<meta property="og:description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, horarios flexibles de 6 AM a 9 PM.">
+<meta property="og:url" content="https://www.axttrujillo.com/">
+<meta property="og:image" content="https://www.axttrujillo.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AXT Trujillo — piscina libre, clases de natación y entrenamiento máster">
+<meta property="og:locale" content="es_PE">
+<meta property="og:site_name" content="AXT Trujillo">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clases de Natación en Trujillo | AXT Trujillo">
+<meta name="twitter:description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, horarios flexibles de 6 AM a 9 PM.">
+<meta name="twitter:image" content="https://www.axttrujillo.com/og-image.png">
+<meta name="twitter:image:alt" content="AXT Trujillo — piscina libre, clases de natación y entrenamiento máster">
+
+<!-- Favicon (embebido como data-URI para mantener el archivo autocontenido) -->
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACcUlEQVR4nO2XW0gUYRiGn29m0zwEChYkBFIXBQUdhK6iSJNQg8A0K6rV8KboQiskonKtsIMHLKgbCxQL2pVCKFmCtSwMM9AysejggTASSrxJbHV2tqtdatvJXd3dKHwvv/n43+d7//nnZwQ/isssdvurG8lUkB9M+y+S2RiHAkIJhTmAVm+dOcBszWcjZfqWwDWTFJRQTx8sREgTmAlEWACCgQgbQKAKK0AgKYQ9gekgIrIFf4IwGT0QEQRQVQVbWRHp65ZTeLGRzjeDvKg7wcPut+SfuQFA6a4Mju/ZSpRJ9btWfFZJ8ACqImguHfOW9WSkruDZ60EuH84lZfcpzOcbsJUVUZybxuSUxun9WdTdf8rL/mGWJSdxJC+dilsPGP4yhiLiTcHffSFGHyJFBBHh/U0L7b39HKq9zcidC1jqW6iyOTi6M53ygm0A3hrAypTFdF4rZdWBcwyNjP4+sQ+EYQK6203OhtUsSlhAtc3Btwkn1kddlOSlcbX5MdW2VuapKooiVNkczI8yobl0EuJjAUiMj2VYHUNVFJxTmndd3yQMAQAs5myevPpAT/8nFBHONtrJ35xKzsY1AJzclwnA90mNmqZWRASXrgPg0nU0l47bT74/QxgC5G5ay9LkJAovNSIimFSFoZFRmtq6qTm4g7iYaMobWnBOaVQUbWfg81ea23swqcEdLMNuizmbjr4But59RACX7kZEqLQ6iIuJxv68j0qrgyt327jX0cv1Y3tZsjCR8YnJgIw9R9PwJYyU/u+7YA5gDuDfABi318r0beHRuL1W/n4CHpJIG3s8Fd9CJM3B5+/Yo3DdD/6G/AEfjOG+Jp9ELAAAAABJRU5ErkJggg==">
+<link rel="icon" type="image/png" sizes="180x180" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0A0E16">
+
+<!-- Fuente: preconnect + carga no bloqueante -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"></noscript>
+
+<!-- ===================================================================
+     Datos estructurados Schema.org (JSON-LD)
+     Tipo: SportsActivityLocation (subtipo de LocalBusiness), WebSite y
+     FAQPage. Solo contiene datos reales confirmados en el proyecto.
+     =================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SportsActivityLocation",
+      "@id": "https://www.axttrujillo.com/#negocio",
+      "name": "AXT Trujillo",
+      "alternateName": "AquaXtreme Trujillo",
+      "description": "Club de natación en Trujillo con piscina libre, clases de natación para niños, adolescentes, jóvenes y adultos, y entrenamiento máster. Piscina semiolímpica de 25 metros, climatizada entre 26° y 27°.",
+      "url": "https://www.axttrujillo.com/",
+      "telephone": "+51953074693",
+      "email": "PENDIENTE DE COMPLETAR",
+      "image": "https://www.axttrujillo.com/og-image.png",
+      "logo": "PENDIENTE DE COMPLETAR",
+      "priceRange": "S/ 100 - S/ 250",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gran Unidad Escolar José Faustino Sánchez Carrión",
+        "addressLocality": "Trujillo",
+        "addressRegion": "La Libertad",
+        "addressCountry": "PE"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "06:00",
+        "closes": "21:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/aquaxtremetrujillo"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Piscina libre",
+          "description": "Acceso libre a piscina semiolímpica climatizada, sin horarios de clase.",
+          "price": "250",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Clases de natación — Niños y adolescentes",
+          "description": "Clases de natación para niños y adolescentes, lunes a viernes.",
+          "price": "100",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Clases de natación — Jóvenes y adultos",
+          "description": "Clases de natación para jóvenes y adultos, lunes a viernes.",
+          "price": "100",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Entrenamiento máster",
+          "description": "Entrenamiento dirigido para nadadores máster, lunes a viernes de 7:00 PM a 9:00 PM.",
+          "price": "200",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.axttrujillo.com/#website",
+      "url": "https://www.axttrujillo.com/",
+      "name": "AXT Trujillo",
+      "inLanguage": "es-PE",
+      "publisher": { "@id": "https://www.axttrujillo.com/#negocio" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde se encuentran ubicados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión, Trujillo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué implementos necesito para comenzar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gorro, lentes, sandalias y ropa de baño de licra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué medidas tiene la piscina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Piscina semi olímpica de 25 metros de largo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La piscina es temperada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, es climatizada entre 26° y 27°."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la edad mínima y máxima?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niños desde 6 años. Adultos sin límite de edad."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+/* =====================================================================
+   AXT TRUJILLO — hoja de estilos
+   No necesitas tocar este bloque para actualizar textos, precios u
+   horarios: toda esa información vive en el bloque CONFIG dentro de
+   la etiqueta <script> al final del archivo.
+   ===================================================================== */
+:root{
+  --ink:#0A0E16;
+  --panel:#12161F;
+  --panel-2:#171D29;
+  --purple-deep:#2A0A5E;
+  --purple:#7A1FC7;
+  --purple-bright:#A929E0;
+  --blue-deep:#0B4970;
+  --teal:#0FA9C7;
+  --cyan:#7DE3FF;
+  --cyan-soft:#BFF3FF;
+  --white:#FFFFFF;
+  --ink-70:rgba(255,255,255,0.70);
+  --ink-50:rgba(255,255,255,0.50);
+  --line:rgba(255,255,255,0.14);
+  --green:#22C55E;
+  --red:#E14B3C;
+  --radius:18px;
+  --radius-lg:28px;
+  --maxw:1180px;
+  --shadow-soft:0 24px 70px rgba(0,0,0,0.24);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:var(--ink);
+  color:var(--white);
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+section{position:relative;}
+
+/* ---------- skip link (accesibilidad) ---------- */
+.skip-link{
+  position:absolute;left:12px;top:-60px;z-index:100;
+  background:var(--cyan-soft);color:#06203A;font-weight:700;
+  padding:12px 20px;border-radius:10px;transition:top .15s ease;
+}
+.skip-link:focus{top:12px;}
+
+/* focus visibility */
+a:focus-visible,button:focus-visible,summary:focus-visible{
+  outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px;
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:0.001ms !important;transition-duration:0.001ms !important;}
+}
+
+/* ---------- eyebrow / pills ---------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  background:transparent;
+  border:0;
+  padding:0;
+  border-radius:0;
+  font-size:12px;font-weight:700;letter-spacing:2.8px;text-transform:uppercase;
+  color:var(--cyan-soft);
+}
+.eyebrow::before{content:"";width:32px;height:2px;background:var(--cyan);box-shadow:10px 0 22px rgba(125,227,255,.5);}
+.eyebrow.solid{background:transparent;color:var(--cyan-soft);border:none;}
+.eyebrow .dot{display:none;}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:52px;padding:15px 24px;border-radius:8px;font-weight:700;font-size:14px;
+  letter-spacing:.2px;
+  border:none;cursor:pointer;white-space:nowrap;
+  transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.btn:hover{transform:translateY(-2px);}
+.btn-whatsapp{background:var(--green);color:#071c0e;}
+.btn-whatsapp::after{content:"↗";font-size:18px;line-height:1;margin-left:2px;}
+.btn-whatsapp:hover{box-shadow:0 12px 34px rgba(34,197,94,0.30);}
+.btn-ghost{background:rgba(255,255,255,0.08);color:var(--white);border:1px solid rgba(255,255,255,0.28);}
+.btn-ghost:hover{background:rgba(255,255,255,0.14);}
+
+/* ---------- NAV ---------- */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(10,14,22,0.9);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{
+  max-width:var(--maxw);margin:0 auto;padding:14px 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+}
+.nav-brand{display:flex;align-items:center;gap:14px;}
+.nav-brand img.mark{height:32px;width:auto;}
+.nav-brand img.word{height:18px;width:auto;margin-top:2px;}
+.nav-links{display:flex;align-items:center;gap:26px;}
+.nav-links a{font-size:13px;font-weight:600;color:var(--ink-70);transition:color .15s;white-space:nowrap;letter-spacing:.25px;}
+.nav-links a:hover{color:var(--white);}
+.nav-cta{display:flex;align-items:center;gap:14px;}
+.nav-toggle{display:none;width:40px;height:40px;background:none;border:1px solid var(--line);border-radius:8px;color:var(--white);cursor:pointer;align-items:center;justify-content:center;}
+.menu-bars,.menu-bars::before,.menu-bars::after{display:block;width:17px;height:1.5px;background:currentColor;transition:transform .2s ease;}
+.menu-bars{position:relative;}
+.menu-bars::before,.menu-bars::after{content:"";position:absolute;left:0;}
+.menu-bars::before{top:-5px;}.menu-bars::after{top:5px;}
+.nav-toggle[aria-expanded="true"] .menu-bars{background:transparent;}
+.nav-toggle[aria-expanded="true"] .menu-bars::before{top:0;transform:rotate(45deg);}
+.nav-toggle[aria-expanded="true"] .menu-bars::after{top:0;transform:rotate(-45deg);}
+
+@media (max-width:560px){
+  .nav-brand img.word{display:none;}
+  .nav-cta .btn-whatsapp{padding:12px 16px;font-size:13.5px;}
+}
+@media (max-width:900px){
+  .nav-links{
+    position:absolute;top:100%;left:0;right:0;
+    background:var(--panel);border-bottom:1px solid var(--line);
+    flex-direction:column;align-items:flex-start;gap:0;
+    max-height:0;overflow:hidden;transition:max-height .25s ease;
+  }
+  .nav-links.open{max-height:400px;}
+  .nav-links a{padding:16px 28px;width:100%;border-bottom:1px solid var(--line);}
+  .nav-toggle{display:flex;}
+  .nav-cta .btn-ghost{display:none;}
+}
+
+/* ---------- HERO (signature diagonal split) ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  min-height:calc(100vh - 72px);
+  display:flex;align-items:center;
+  background:var(--ink);
+}
+.hero-zone-a{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    radial-gradient(circle at 18% 20%, rgba(122,31,199,.14), transparent 32%),
+    linear-gradient(160deg, #171225 0%, #0A0E16 72%);
+  background-size:56px 56px,56px 56px,auto,auto;
+}
+.hero-zone-b{
+  position:absolute;inset:0;
+  clip-path:polygon(100% 0,100% 100%,48% 100%,74% 0);
+  background:
+    radial-gradient(circle at 85% 12%, rgba(200,250,255,0.30) 0%, rgba(200,250,255,0) 42%),
+    linear-gradient(155deg, var(--purple-deep) 0%, var(--purple) 40%, var(--blue-deep) 72%, var(--teal) 100%);
+}
+.hero-seam{position:absolute;inset:0;}
+.hero .content{position:relative;z-index:2;width:100%;}
+.hero-inner{
+  max-width:var(--maxw);margin:0 auto;padding:0 28px;
+  display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center;
+}
+.hero-copy h1{
+  font-size:clamp(42px,5.7vw,72px);font-weight:700;line-height:1.01;letter-spacing:-2px;
+  margin:26px 0 22px;
+}
+.hero-copy h1 .accent{color:var(--cyan);}
+.hero-copy p{font-size:18px;color:var(--ink-70);max-width:510px;margin-bottom:34px;line-height:1.7;}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px;}
+.hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;max-width:570px;border-top:1px solid var(--line);padding-top:22px;}
+.stat-chip{
+  background:rgba(255,255,255,0.055);border:1px solid var(--line);
+  border-radius:6px;padding:11px 15px;font-size:13px;font-weight:600;
+  display:flex;align-items:center;line-height:1.45;
+}
+.hero-stats .stat-chip{
+  background:transparent;border:0;border-right:1px solid var(--line);
+  border-radius:0;padding:0 20px;font-size:13px;font-weight:600;
+  display:flex;align-items:center;min-height:42px;line-height:1.45;
+}
+.hero-stats .stat-chip:first-child{padding-left:0;}
+.hero-stats .stat-chip:last-child{border-right:0;}
+.hero-visual{position:relative;display:flex;justify-content:center;align-items:center;min-height:470px;isolation:isolate;}
+.hero-visual::before{content:"AXT";position:absolute;z-index:-1;font-size:clamp(120px,17vw,230px);font-weight:700;letter-spacing:-18px;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.13);transform:rotate(-8deg);}
+.hero-visual::after{content:"25 M  /  TRUJILLO";position:absolute;right:0;bottom:52px;padding-top:12px;border-top:1px solid rgba(255,255,255,.4);font-size:10px;font-weight:700;letter-spacing:3px;color:rgba(255,255,255,.75);}
+.goggles-hero{width:min(400px,92%);transform:rotate(-5deg);filter:drop-shadow(0 28px 55px rgba(0,0,0,0.48)) drop-shadow(0 0 70px rgba(125,227,255,0.22));}
+
+@media (max-width:900px){
+  .hero{min-height:auto;padding:120px 0 70px;}
+  .hero-inner{grid-template-columns:1fr;text-align:left;}
+  .hero-visual{order:-1;margin-bottom:10px;min-height:260px;}
+  .goggles-hero{width:220px;margin:0 auto;}
+  .hero-visual::after{right:8%;bottom:18px;}
+}
+@media (max-width:620px){
+  .nav-inner{padding:12px 20px;}
+  .nav-brand img.mark{height:28px;}
+  .nav-cta{display:none;}
+  .nav-toggle{margin-left:auto;}
+  .hero{padding:88px 0 58px;}
+  .hero-inner{padding:0 22px;gap:24px;}
+  .hero-zone-b{clip-path:polygon(100% 0,100% 100%,78% 100%,100% 0);}
+  .hero-seam{display:none;}
+  .hero-visual{min-height:220px;margin-bottom:6px;}
+  .hero-visual::after{display:none;}
+  .hero-visual::before{font-size:112px;letter-spacing:-10px;}
+  .goggles-hero{width:190px;}
+  .hero-copy h1{font-size:clamp(36px,11.5vw,46px);letter-spacing:-1.3px;line-height:1.02;margin-top:22px;}
+  .hero-copy p{font-size:16px;line-height:1.65;}
+  .hero-ctas{display:grid;grid-template-columns:1fr;margin-bottom:34px;}
+  .hero-ctas .btn{width:100%;}
+  .hero-stats{grid-template-columns:1fr;gap:10px;}
+  .hero-stats .stat-chip,.hero-stats .stat-chip:first-child{padding:0 0 10px;border-right:0;border-bottom:1px solid var(--line);min-height:0;}
+  .hero-stats .stat-chip:last-child{border-bottom:0;}
+  .wrap{padding-left:22px;padding-right:22px;}
+  .detail-panel{padding:28px 24px;}
+  .freq-table{grid-template-columns:1fr;}
+  .o-card{min-height:auto;padding:26px;}
+}
+
+/* ---------- section headers ---------- */
+.section-head{max-width:700px;margin-bottom:52px;}
+.section-head .eyebrow{margin-bottom:18px;}
+.section-head h2{font-size:clamp(30px,4vw,46px);font-weight:700;letter-spacing:-1.2px;line-height:1.08;margin-bottom:16px;}
+.section-head p{color:var(--ink-70);font-size:17px;}
+.section-pad{padding:100px 0;}
+@media (max-width:700px){.section-pad{padding:64px 0;}}
+
+/* ---------- diagonal divider between sections ---------- */
+.divider{height:90px;position:relative;overflow:hidden;}
+.divider svg{width:100%;height:100%;display:block;}
+
+/* ---------- OVERVIEW CARDS ("todo en un solo lugar") ---------- */
+.overview{background:var(--panel);}
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+@media (max-width:900px){.card-grid{grid-template-columns:1fr;}}
+.o-card{
+  position:relative;overflow:hidden;
+  background:linear-gradient(155deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+  border:1px solid var(--line);border-radius:16px;
+  padding:30px;display:flex;flex-direction:column;gap:15px;min-height:320px;
+  transition:transform .25s ease, border-color .25s ease, background .25s ease;
+}
+.o-card::after{content:"";position:absolute;right:-65px;bottom:-80px;width:190px;height:190px;border:1px solid rgba(125,227,255,.16);border-radius:50%;box-shadow:0 0 0 22px rgba(125,227,255,.025),0 0 0 46px rgba(125,227,255,.02);}
+.o-card:hover{transform:translateY(-6px);border-color:rgba(125,227,255,0.5);background:linear-gradient(155deg,rgba(122,31,199,.16),rgba(15,169,199,.08));}
+.o-card .icon-badge{
+  width:auto;height:auto;border-radius:0;display:flex;align-items:flex-end;justify-content:space-between;
+  font-size:11px;background:none;border:0;color:var(--cyan);font-weight:700;letter-spacing:2px;
+  padding-bottom:20px;margin-bottom:14px;border-bottom:1px solid var(--line);
+}
+.o-card .icon-badge .service-no{font-size:42px;line-height:1;letter-spacing:-2px;color:var(--white);font-weight:600;}
+.o-card .icon-badge .lane-mark{width:66px;height:18px;opacity:.8;}
+.o-card h3{font-size:21px;font-weight:700;}
+.o-card .sched{color:var(--ink-70);font-size:14px;line-height:1.65;min-height:48px;}
+.o-card .price{font-size:28px;font-weight:700;color:var(--cyan);}
+.o-card .price span{font-size:14px;font-weight:500;color:var(--ink-50);}
+.o-card .from{font-size:13px;color:var(--ink-50);font-weight:600;letter-spacing:1px;text-transform:uppercase;}
+
+/* ---------- DETAIL SECTIONS ---------- */
+.detail{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;}
+@media (max-width:900px){.detail{grid-template-columns:1fr;gap:36px;}}
+.detail-panel{
+  position:relative;overflow:hidden;
+  background:linear-gradient(160deg, rgba(122,31,199,0.14), rgba(15,169,199,0.07));
+  border:1px solid var(--line);border-radius:16px;
+  padding:38px;box-shadow:var(--shadow-soft);
+}
+.detail-panel::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(var(--purple-bright),var(--cyan));}
+.detail-panel h3{font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--cyan-soft);margin-bottom:22px;}
+.sched-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:16px 0;border-bottom:1px solid var(--line);font-size:15.5px;
+}
+.sched-row:last-child{border-bottom:none;}
+.sched-row .lbl{color:var(--ink-70);}
+.sched-row .val{font-weight:700;}
+
+.freq-table{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px;}
+.freq-cell{
+  background:rgba(255,255,255,0.04);border:1px solid var(--line);border-radius:8px;
+  padding:16px 10px;text-align:center;
+}
+.freq-cell.highlight{background:rgba(125,227,255,0.14);border-color:rgba(125,227,255,0.5);}
+.freq-cell .n{font-size:12px;color:var(--ink-50);font-weight:600;letter-spacing:1px;}
+.freq-cell .p{font-size:20px;font-weight:700;margin-top:4px;}
+
+.age-jump{display:flex;gap:10px;margin-bottom:34px;flex-wrap:wrap;}
+.age-jump a{
+  padding:11px 18px;border-radius:6px;font-size:13px;font-weight:700;
+  background:rgba(255,255,255,0.07);border:1px solid var(--line);color:var(--ink-70);
+  transition:all .15s ease;
+}
+.age-jump a:hover{background:rgba(125,227,255,0.14);color:var(--white);border-color:rgba(125,227,255,0.4);}
+.age-panel{margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid var(--line);scroll-margin-top:100px;}
+.age-panel:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none;}
+
+/* ---------- FAQ ---------- */
+.faq-list{display:flex;flex-direction:column;gap:12px;max-width:760px;}
+.faq-item{
+  background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+}
+.faq-item summary{
+  list-style:none;cursor:pointer;padding:22px 26px;
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  font-size:16.5px;font-weight:600;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary .plus{
+  flex:0 0 auto;width:28px;height:28px;border-radius:8px;
+  background:rgba(125,227,255,0.14);color:var(--cyan);
+  display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;
+  transition:transform .2s ease;
+}
+.faq-item[open] summary .plus{transform:rotate(45deg);}
+.faq-item .a{padding:0 26px 24px;color:var(--ink-70);font-size:15.5px;line-height:1.6;}
+
+/* ---------- CONTACT ---------- */
+.contact{
+  background:linear-gradient(155deg, var(--purple-deep) 0%, var(--purple) 45%, var(--blue-deep) 78%, var(--teal) 100%);
+  border-radius:18px;
+  padding:56px;
+  display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center;
+}
+@media (max-width:900px){.contact{grid-template-columns:1fr;padding:36px 24px;}}
+.contact h2{font-size:clamp(26px,4vw,38px);font-weight:700;margin-bottom:14px;}
+.contact p{color:rgba(255,255,255,0.85);font-size:16.5px;margin-bottom:26px;max-width:460px;}
+.contact-info{display:flex;flex-direction:column;gap:14px;}
+.contact-info .row{display:flex;align-items:center;gap:12px;font-size:15px;font-weight:600;}
+.contact-info .row{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.18);align-items:flex-start;}
+.contact-info .row:last-child{border-bottom:0;}
+.contact-label{flex:0 0 86px;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,.62);padding-top:4px;}
+.contact-value{line-height:1.55;}
+.contact-card{
+  background:rgba(6,20,30,0.35);border:1px solid rgba(255,255,255,0.25);
+  border-radius:12px;padding:32px;text-align:left;
+}
+.contact-card .big-num{font-size:26px;font-weight:700;margin:10px 0 18px;}
+
+/* ---------- FOOTER ---------- */
+footer{border-top:1px solid var(--line);padding:36px 0;}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
+.footer-inner img{height:24px;width:auto;}
+.footer-inner .fine{color:var(--ink-50);font-size:13.5px;}
+.footer-links{display:flex;gap:20px;}
+.footer-links a{color:var(--ink-70);font-size:14px;font-weight:600;}
+.footer-links a:hover{color:var(--white);}
+
+/* ---------- whatsapp floating button ---------- */
+.float-wa{
+  position:fixed;right:22px;bottom:22px;z-index:60;
+  width:58px;height:58px;border-radius:12px;
+  background:var(--green);color:#0B2412;
+  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;letter-spacing:.8px;
+  box-shadow:0 12px 30px rgba(34,197,94,0.45);
+  transition:transform .15s ease;
+}
+.float-wa:hover{transform:scale(1.08);}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" aria-label="Navegación principal">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top" aria-label="AXT Trujillo — Inicio">
+      <img class="mark" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkkAAADbCAYAAAB5sQVVAAAOj0lEQVR4nO3d2XLkNhIFUMrR///Lmge1prXUQrJIAjfznAiHHR7HmEQCmbegxW/v7+8L/PW5Gd6GPsV8qh0S9eUM1c4JLH9GPwCXel9+D8hbje3n33v78b91HLJvS50h8PU9OtaS9Z59cKpyJuCmNzdJpV1V3A6DtvJB6VA/Hqu8v2G3/0Y/AId7//JH5X/n1SoHicp147b3O38NfOEmqY7ZClk1VMy2zkeqWjM+VN67cAo3SflmbXzVb5Zgdm6L4EVuknKlFa7SLUXa2m9RqU4dVd6bcDk3SXlSb2hSn/uWykGiSo0AXiYkZakwwCq8w7IISszhfenxgxMwhN+TlKFa8/NLK2G/av0ApuUmaX6VG2L6u1UOeem1qchtEVxMSJpbh4aY/o6CEmdTBxhESJpXp8aY/q6CEmd5//Fn4EJC0ny6Xqmnv7OgxJG69gGYipDETAwFcA5gGkISs0keEG6TeJV1hokISXPwe06+S14HQYm9rC9MRkiaQ+XBulfywKhcz+S6zMy6woSEpPHcIN2XvC6CEms4/zAxIWkszfG55DUSlLjFl9chhJA0jga5nrWiCnsZgghJY2iUfbhN4pP1gjBC0hiVB+dZkgdM5Xon1+VK1gkCCUnX870I+yWvm6AEEEZIgutUDkrc5kMRBBOSSGPgzEldfrMmEE5Iuo5PlMdJXsfKt0nJdTmatYAChCS4nqBUlw9DUIiQRKr0QSQoAUxOSIJxBKVaOr4zlCYknc/1+3msK7OwF6EgIQnGcpsEMCkh6VyGxPkqrLGglMtNMRQmJFFBhSElKAFMRkg6j8HAVoJSDjdI0ICQBLCNcARNCEnn0ESvV2XN3SbNrcI7ACsJSTAfQQlgAkLS8QyBcSqtvaA0n9TnBnYSkmBegtI80p4XOICQdCyNdDw1AOAQQtKxKn/yZ4zKeyoh0PpRf2hMSDqOZjqPanUQlMaY+dmAC/wZ/QCFvC2aKuepvL/el9pBsJNKdUw6b5XWfSpC0jGSDtMjnwetwvtUHLyC0nWqrvNeM9UGLuPLbceo0EDe7vw1XGWWYDLLc4z09uMPaElIel2F70W61QQrNMb0utxSoS4zq7hn1hKK4AchiUcNUbOcU+W6jAwpXQOSYAR3CEmvSW+qaxpjevNMr9E96XV5pGrNZiMcwRNCEuSqPOCuDkqdgplwBCsJSX1taZLpDbXTAKxE3Y6XfpbhUkISZDP0XtchjLk9gh2EpH3Sf6JtT7NMb7LJ9XomuS7PnFm3ynviq8r7A04lJEENlQfhGWHm/cefK0r/YAPDCUn9dG6alQfistSu7dG1q7xWy1L//eASQtJ21QftM5rv3CrX56izl/7l8mcq7wG4lJDUi+ZJd5XD0bI443AoIWmb6g12reRG3KGGyfV55pX6Va995brDEEJSHxpoL5XrvSfsCEjAZkLSetWb7FbJTblLLZNr9MyWGlavd+U6w1BCUg+aaF+Va78m/AhIwG5C0jrVG+1eyQ26U02T6/TMvZ9Uq/4TbMtSu64whT+jHyDE25LbcDVSOkg9n3s513ABN0nPdfhE2lWnuhqqdaglXERIqu2KZqph51CrfGoIFxKSHut009BVtxobsgArCUl1XTkMDV44n3MGFxOS7ut2w9BZt1obtnnUDAYQkmoa0VA18SzqlUOtYBAhCT50u01aFsMX4CEhqZ6Rg8/QzaNmc1MfGEhIuq3jrQJ9GcRzUhcYTEj6LTkgzdBUZ3iGvZJrTy3J5wjKEJKAZTGUZ6IWMAkh6bvkm4SZGutMz7JV8h54VXLdqlADmIiQ9J0GRXfOAMBfQtI/yf8h2xkH24zPtFbqPjhKcu2SWXeYjJAE3GJgX8t6w4SEpA/JNwczN9eZn+2Z5D1BluRzAqUJScA9hvf5rDFMTEhyY3C25CFgb2TXD+AlQlI2A4wr2GfnsK4wue4hyU0Bz9gjHwz0Y1lPCNA9JCU3qqRnT3pWOJvzACE6h6Tk34vEteyTD4b766whBOkckpIlNtrEZ+Y3ddzP2kGYriHJzQBb2TP/GPZAC11DUrLkAZX87HynlttYLwgkJMF6bpO+M/jXsU4QqmNISh50FZpthXeAtex3CNYxJAHHeVsEgXusC4QTknJUarjJ75J8E8l1kvc48Fe3kGTAwTncKP1jHaCITiEpOSBVbLrJ75S8l86WXNcjdH9/KKVTSAKu0TEouEmDgrqEpORP/pUbb/K7Je+pKyTXdqtO7wqtdAlJmhhcr/rtSvX3g/Y6hCT/Idu5JQ8Z+2qdimGi2vsAN3QISck0YiqpsJ8rBj7gjuohySd9zmaPbZMaMlKfG3hB9ZCU3NSSn32rTu/Kh5TQkfKcwAn+jH6AE/mEz1XeF4N0r6/rNtOZVU+gdEh6W+Zqult0bNDJ9eIYowNTx3MHPFA1JBm2XM1t0rGuCEzqBTxUNSQl30p0btzJdeM8j87Es/3S+TwBL6oYkgxZRnGbdD3rDZym+k+3pdHwrQEAkxCSAABuEJLm4Qbln+S18OVegCKqhSQDihnYhwAFVApJyYMp+ebkLNYEgKEqhSQAgMMISeO5MbkveW2SbzYBWOqEJAMJADhUhZCUHJCSb0qukrxGyXsToL2Kv3EbqOnRbzS/FUhv/bN+KzqwmpA0jka9XvJ/081Q3u9Wzbfsg3v/7NpABTSXHpJSBydw34hz/fXfKTABy7JkhyQBiRRukx6b7Sx/Po+aQXPJISmZ5rtd8pfcuG32erpdguZSf7pt9uYKP9mz/7wveeuR+MzAi1JDUjKfSPezdtkqBI305wc2SAxJmhSpOu/dSu9eIewBKySGpGRuQl5nDbNUDhRV3wv4Ky0kaUqk67SHO7xr5RAI7aWFpGRuQI5jLefWMTh0e19oISkkaUIwv87ntPO7Q0lJISmZm4/jJa9p1WFa9b226HiLBmUJScARBAOgnJSQlNyAk288Zpe8tsl7+qdK73IUN0pQQEpISh6GUJkg8Jj1gWApISm10Qh350te49R9/Sn9+QEeSghJGjHMx7lcz5feINTsISm5sSTfcKRJXuvEPZ74zACbzR6SgLkISPtZOwgzc0jSUNjCbdL53pfsdZ5BSq2BZe6QlMwgoaK3xZA/gjWEELOGJE2EPZLDacKeT3hGgMPMGpKSJQ9quEdAOpb1hAAzhiTNg65m3PszPlMV1hYmN2NISuYWaTw1OJ5hfh5rCxObLSRpGHTnDPSj5jCp2UJS8i1A8rNXoxav81uigfZmCkmaMnxwDvpRc5jQTCEpmZuL+ajJPj6sjGPdYTKzhCTNAb5zJnpSd5jILCEp+VN/8rNXpzbbGNBzUAeYxCwhSVOAsZzBuagHTGCGkJTcDNxUzC+5RslnAyDeDCEJGEsYm5O6wGCjQ1JyE0i+oegmuVZnnhE/yTY/9YGBRockAB4TlGCQkSEp+eAn30x0lVyzM85K8vnrSL1gADdJ0I+BC7DCqJCU3KSTbyTIddSZST573akdXGxUSBI0GKH7vjNk86khXGhESPITNbCPc8Oy2AdwGd+TtE33m4gKutaww2B9W/rUt0M9YbirQ5KDDa9xhn77GY7ebvy9iuwFONnVISm5aSU/O991q2XVYbomCHWrNXCgK0OS70WCY6w9R5XP3JbwUzkoVa0vTMH3JK1Tucl2Vb2mhud3leut1nCSq0KSQwzHenamKoeCve9WeU30WDiBm6TnKjfW7irXturQrFyzV1WtOQxzRUhycOEct86W70M6//8DaMJN0mMaan2Valw1HC3LsXWqVPOfKu8BuJyQBHVUHf5nvFfVtVoWQQkOc3ZISj6slZso3yXX+v3HH6yXXPdn7AU4gJskYGZnBxlBCbjrzJCUfEArN05uU/P5qAkwlJskYEZXBqTKYSz5wyoMd1ZIcjBJVHlYJhlRh8q1149hJzdJv1VulsB9lc++oAQ7nBGSHEZgr9FBZfS//0x6M2zkJum7yg2SdeyBcWZZ+1meAxjs6JDkkwqwh2ByDT0aNjg6JCU3uuRn51j2wrVmXO8Zn+koghKsdGRI8ht/gUoEJWjO9yR9qNwM2ceeuMbs6zz7871CUIInjgpJDhuwVUoASXnOPfRueOCokJTcRJKfnXPZG+dJW9u05wUOcERI8r1IwBYCx1z0b7jjiJCU3PCSn51r2CPHSl7P5Gd/RlCCG466SQLoQFCCRjr/dFvlZsex7JVjVFnHKu9xi6AEX7wakhwoYI3KwQIo6pWQlByQNGy2smf2q7h2Fd/pU3Jvh0N1/nIbcL7KYaLyuwlKsPQMSZUbG+eyd/ip8p4QlGhvb0hyeIBnKgeIryq/p15Pa3tCkkMDPFM5OABNdPtym8bNq+yh5zquUeV39sGYtraGJIcFeKRyWHim8rvr/bS0NSQlN4HkZ2cu9hL3VN4bghLtbAlJDgjwSOWAsIV1gCK2hKS3JTcoaVoczZ76znr0kDoDYJe1Iel9cTiA2wSk3yqviVlAGx1+uq1ys2Ise8saPFJ5bQQlWugQkgBGEZQg2JqQlHwQKjco5tB5j3V+9y0qr1PyfICn3CQBe1Qe/ADLstQOSZo4V+m217q97xEqr5nbJMp6FpJsfuCrysP+bJXXzqygpKo3SZWbEXOy51ij8j4RlCjnUUiy4YGvKg/4K1VeR3ODUu6FpOSNXrkBMbfKe6/yu41gPSFA1S+3Accx0Nki+UM2fHMrJCVvcM0cjuVMnafy2ibPEfg/N0lwrMqDj+NV3i+CEvF+hqTkTV252cAIztQ1Kq9z8kyBXyGp8mGFq1Q4RxXeIYn1hgl9DUnvi9QPGNgcy1whVpXvSdLUmU3qnkx97goqr72gRKTPkGQDA5WHdIrKNTBniPMZkpIPZvKzU5u9yR6V942gRJT/Ft+LBNQezIkq18O8IUb69yRVbiTUkLBHE54R4HLJIUljh9c5R/OqXBu3SUT4M/oBdqrcPKjnc7/ONBicoQwz7p0uUtbeWT7R/wADzxnORDaU9gAAAABJRU5ErkJggg==" alt="AXT Trujillo" width="585" height="219">
+      <img class="word" src="data:image/png;base64,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" alt="AquaXtreme Trujillo" width="1236" height="169">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navLinks"><span class="menu-bars" aria-hidden="true"></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#piscina-libre">Piscina libre</a></li>
+      <li><a href="#clases">Clases</a></li>
+      <li><a href="#master">Entrenamiento máster</a></li>
+      <li><a href="#faq">Preguntas frecuentes</a></li>
+      <li><a href="#contacto">Ubicación</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-whatsapp" id="navWaBtn" href="#" target="_blank" rel="noopener">Escríbenos</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero-zone-a"></div>
+  <div class="hero-zone-b"></div>
+  <svg class="hero-seam" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">
+    <line x1="720" y1="0" x2="380" y2="1000" stroke="#7DE3FF" stroke-width="6" opacity="0.35" style="filter:blur(6px)"/>
+    <line x1="720" y1="0" x2="380" y2="1000" stroke="#EAFCFF" stroke-width="1.5" opacity="0.6"/>
+  </svg>
+
+  <div class="content">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="dot">●</span> CLUB DE NATACIÓN · TRUJILLO</span>
+        <h1>Natación en Trujillo: <span class="accent" id="heroAccent">piscina libre, clases y máster.</span></h1>
+        <p id="heroSubtitle">Piscina semiolímpica y climatizada en el corazón de Trujillo. Elige tu horario, tu ritmo y tu categoría.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-whatsapp" id="heroWaBtn" href="#" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+          <a class="btn btn-ghost" href="#clases">Ver horarios y precios</a>
+        </div>
+        <div class="hero-stats" id="heroStats"><!-- generado por script.js --></div>
+      </div>
+      <div class="hero-visual">
+        <svg class="goggles-hero" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="img"><title>Gorro de natación AXT</title>
+          <defs>
+            <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#7DE3FF"/>
+              <stop offset="60%" stop-color="#2FB8DE"/>
+              <stop offset="100%" stop-color="#0E7FAE"/>
+            </linearGradient>
+          </defs>
+          <circle cx="188" cy="108" r="20" fill="url(#capGrad)" stroke="#0B2242" stroke-width="5"/>
+          <path d="M 30,120 C 26,60 68,20 128,20 C 188,20 216,64 210,116 C 208,128 196,134 178,135 L 56,135 C 40,134 31,130 30,120 Z" fill="url(#capGrad)" stroke="#0B2242" stroke-width="5"/>
+          <path d="M 40,128 C 80,140 160,140 202,126" stroke="#0B2242" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.35"/>
+          <ellipse cx="80" cy="55" rx="26" ry="14" fill="#ffffff" opacity="0.35" transform="rotate(-25 80 55)"/>
+          <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkkAAADbCAYAAAB5sQVVAAAOj0lEQVR4nO3d2XLkNhIFUMrR///Lmge1prXUQrJIAjfznAiHHR7HmEQCmbegxW/v7+8L/PW5Gd6GPsV8qh0S9eUM1c4JLH9GPwCXel9+D8hbje3n33v78b91HLJvS50h8PU9OtaS9Z59cKpyJuCmNzdJpV1V3A6DtvJB6VA/Hqu8v2G3/0Y/AId7//JH5X/n1SoHicp147b3O38NfOEmqY7ZClk1VMy2zkeqWjM+VN67cAo3SflmbXzVb5Zgdm6L4EVuknKlFa7SLUXa2m9RqU4dVd6bcDk3SXlSb2hSn/uWykGiSo0AXiYkZakwwCq8w7IISszhfenxgxMwhN+TlKFa8/NLK2G/av0ApuUmaX6VG2L6u1UOeem1qchtEVxMSJpbh4aY/o6CEmdTBxhESJpXp8aY/q6CEmd5//Fn4EJC0ny6Xqmnv7OgxJG69gGYipDETAwFcA5gGkISs0keEG6TeJV1hokISXPwe06+S14HQYm9rC9MRkiaQ+XBulfywKhcz+S6zMy6woSEpPHcIN2XvC6CEms4/zAxIWkszfG55DUSlLjFl9chhJA0jga5nrWiCnsZgghJY2iUfbhN4pP1gjBC0hiVB+dZkgdM5Xon1+VK1gkCCUnX870I+yWvm6AEEEZIgutUDkrc5kMRBBOSSGPgzEldfrMmEE5Iuo5PlMdJXsfKt0nJdTmatYAChCS4nqBUlw9DUIiQRKr0QSQoAUxOSIJxBKVaOr4zlCYknc/1+3msK7OwF6EgIQnGcpsEMCkh6VyGxPkqrLGglMtNMRQmJFFBhSElKAFMRkg6j8HAVoJSDjdI0ICQBLCNcARNCEnn0ESvV2XN3SbNrcI7ACsJSTAfQQlgAkLS8QyBcSqtvaA0n9TnBnYSkmBegtI80p4XOICQdCyNdDw1AOAQQtKxKn/yZ4zKeyoh0PpRf2hMSDqOZjqPanUQlMaY+dmAC/wZ/QCFvC2aKuepvL/el9pBsJNKdUw6b5XWfSpC0jGSDtMjnwetwvtUHLyC0nWqrvNeM9UGLuPLbceo0EDe7vw1XGWWYDLLc4z09uMPaElIel2F70W61QQrNMb0utxSoS4zq7hn1hKK4AchiUcNUbOcU+W6jAwpXQOSYAR3CEmvSW+qaxpjevNMr9E96XV5pGrNZiMcwRNCEuSqPOCuDkqdgplwBCsJSX1taZLpDbXTAKxE3Y6XfpbhUkISZDP0XtchjLk9gh2EpH3Sf6JtT7NMb7LJ9XomuS7PnFm3ynviq8r7A04lJEENlQfhGWHm/cefK0r/YAPDCUn9dG6alQfistSu7dG1q7xWy1L//eASQtJ21QftM5rv3CrX56izl/7l8mcq7wG4lJDUi+ZJd5XD0bI443AoIWmb6g12reRG3KGGyfV55pX6Va995brDEEJSHxpoL5XrvSfsCEjAZkLSetWb7FbJTblLLZNr9MyWGlavd+U6w1BCUg+aaF+Va78m/AhIwG5C0jrVG+1eyQ26U02T6/TMvZ9Uq/4TbMtSu64whT+jHyDE25LbcDVSOkg9n3s513ABN0nPdfhE2lWnuhqqdaglXERIqu2KZqph51CrfGoIFxKSHut009BVtxobsgArCUl1XTkMDV44n3MGFxOS7ut2w9BZt1obtnnUDAYQkmoa0VA18SzqlUOtYBAhCT50u01aFsMX4CEhqZ6Rg8/QzaNmc1MfGEhIuq3jrQJ9GcRzUhcYTEj6LTkgzdBUZ3iGvZJrTy3J5wjKEJKAZTGUZ6IWMAkh6bvkm4SZGutMz7JV8h54VXLdqlADmIiQ9J0GRXfOAMBfQtI/yf8h2xkH24zPtFbqPjhKcu2SWXeYjJAE3GJgX8t6w4SEpA/JNwczN9eZn+2Z5D1BluRzAqUJScA9hvf5rDFMTEhyY3C25CFgb2TXD+AlQlI2A4wr2GfnsK4wue4hyU0Bz9gjHwz0Y1lPCNA9JCU3qqRnT3pWOJvzACE6h6Tk34vEteyTD4b766whBOkckpIlNtrEZ+Y3ddzP2kGYriHJzQBb2TP/GPZAC11DUrLkAZX87HynlttYLwgkJMF6bpO+M/jXsU4QqmNISh50FZpthXeAtex3CNYxJAHHeVsEgXusC4QTknJUarjJ75J8E8l1kvc48Fe3kGTAwTncKP1jHaCITiEpOSBVbLrJ75S8l86WXNcjdH9/KKVTSAKu0TEouEmDgrqEpORP/pUbb/K7Je+pKyTXdqtO7wqtdAlJmhhcr/rtSvX3g/Y6hCT/Idu5JQ8Z+2qdimGi2vsAN3QISck0YiqpsJ8rBj7gjuohySd9zmaPbZMaMlKfG3hB9ZCU3NSSn32rTu/Kh5TQkfKcwAn+jH6AE/mEz1XeF4N0r6/rNtOZVU+gdEh6W+Zqult0bNDJ9eIYowNTx3MHPFA1JBm2XM1t0rGuCEzqBTxUNSQl30p0btzJdeM8j87Es/3S+TwBL6oYkgxZRnGbdD3rDZym+k+3pdHwrQEAkxCSAABuEJLm4Qbln+S18OVegCKqhSQDihnYhwAFVApJyYMp+ebkLNYEgKEqhSQAgMMISeO5MbkveW2SbzYBWOqEJAMJADhUhZCUHJCSb0qukrxGyXsToL2Kv3EbqOnRbzS/FUhv/bN+KzqwmpA0jka9XvJ/081Q3u9Wzbfsg3v/7NpABTSXHpJSBydw34hz/fXfKTABy7JkhyQBiRRukx6b7Sx/Po+aQXPJISmZ5rtd8pfcuG32erpdguZSf7pt9uYKP9mz/7wveeuR+MzAi1JDUjKfSPezdtkqBI305wc2SAxJmhSpOu/dSu9eIewBKySGpGRuQl5nDbNUDhRV3wv4Ky0kaUqk67SHO7xr5RAI7aWFpGRuQI5jLefWMTh0e19oISkkaUIwv87ntPO7Q0lJISmZm4/jJa9p1WFa9b226HiLBmUJScARBAOgnJSQlNyAk288Zpe8tsl7+qdK73IUN0pQQEpISh6GUJkg8Jj1gWApISm10Qh350te49R9/Sn9+QEeSghJGjHMx7lcz5feINTsISm5sSTfcKRJXuvEPZ74zACbzR6SgLkISPtZOwgzc0jSUNjCbdL53pfsdZ5BSq2BZe6QlMwgoaK3xZA/gjWEELOGJE2EPZLDacKeT3hGgMPMGpKSJQ9quEdAOpb1hAAzhiTNg65m3PszPlMV1hYmN2NISuYWaTw1OJ5hfh5rCxObLSRpGHTnDPSj5jCp2UJS8i1A8rNXoxav81uigfZmCkmaMnxwDvpRc5jQTCEpmZuL+ajJPj6sjGPdYTKzhCTNAb5zJnpSd5jILCEp+VN/8rNXpzbbGNBzUAeYxCwhSVOAsZzBuagHTGCGkJTcDNxUzC+5RslnAyDeDCEJGEsYm5O6wGCjQ1JyE0i+oegmuVZnnhE/yTY/9YGBRockAB4TlGCQkSEp+eAn30x0lVyzM85K8vnrSL1gADdJ0I+BC7DCqJCU3KSTbyTIddSZST573akdXGxUSBI0GKH7vjNk86khXGhESPITNbCPc8Oy2AdwGd+TtE33m4gKutaww2B9W/rUt0M9YbirQ5KDDa9xhn77GY7ebvy9iuwFONnVISm5aSU/O991q2XVYbomCHWrNXCgK0OS70WCY6w9R5XP3JbwUzkoVa0vTMH3JK1Tucl2Vb2mhud3leut1nCSq0KSQwzHenamKoeCve9WeU30WDiBm6TnKjfW7irXturQrFyzV1WtOQxzRUhycOEct86W70M6//8DaMJN0mMaan2Valw1HC3LsXWqVPOfKu8BuJyQBHVUHf5nvFfVtVoWQQkOc3ZISj6slZso3yXX+v3HH6yXXPdn7AU4gJskYGZnBxlBCbjrzJCUfEArN05uU/P5qAkwlJskYEZXBqTKYSz5wyoMd1ZIcjBJVHlYJhlRh8q1149hJzdJv1VulsB9lc++oAQ7nBGSHEZgr9FBZfS//0x6M2zkJum7yg2SdeyBcWZZ+1meAxjs6JDkkwqwh2ByDT0aNjg6JCU3uuRn51j2wrVmXO8Zn+koghKsdGRI8ht/gUoEJWjO9yR9qNwM2ceeuMbs6zz7871CUIInjgpJDhuwVUoASXnOPfRueOCokJTcRJKfnXPZG+dJW9u05wUOcERI8r1IwBYCx1z0b7jjiJCU3PCSn51r2CPHSl7P5Gd/RlCCG466SQLoQFCCRjr/dFvlZsex7JVjVFnHKu9xi6AEX7wakhwoYI3KwQIo6pWQlByQNGy2smf2q7h2Fd/pU3Jvh0N1/nIbcL7KYaLyuwlKsPQMSZUbG+eyd/ip8p4QlGhvb0hyeIBnKgeIryq/p15Pa3tCkkMDPFM5OABNdPtym8bNq+yh5zquUeV39sGYtraGJIcFeKRyWHim8rvr/bS0NSQlN4HkZ2cu9hL3VN4bghLtbAlJDgjwSOWAsIV1gCK2hKS3JTcoaVoczZ76znr0kDoDYJe1Iel9cTiA2wSk3yqviVlAGx1+uq1ys2Ise8saPFJ5bQQlWugQkgBGEZQg2JqQlHwQKjco5tB5j3V+9y0qr1PyfICn3CQBe1Qe/ADLstQOSZo4V+m217q97xEqr5nbJMp6FpJsfuCrysP+bJXXzqygpKo3SZWbEXOy51ij8j4RlCjnUUiy4YGvKg/4K1VeR3ODUu6FpOSNXrkBMbfKe6/yu41gPSFA1S+3Accx0Nki+UM2fHMrJCVvcM0cjuVMnafy2ibPEfg/N0lwrMqDj+NV3i+CEvF+hqTkTV252cAIztQ1Kq9z8kyBXyGp8mGFq1Q4RxXeIYn1hgl9DUnvi9QPGNgcy1whVpXvSdLUmU3qnkx97goqr72gRKTPkGQDA5WHdIrKNTBniPMZkpIPZvKzU5u9yR6V942gRJT/Ft+LBNQezIkq18O8IUb69yRVbiTUkLBHE54R4HLJIUljh9c5R/OqXBu3SUT4M/oBdqrcPKjnc7/ONBicoQwz7p0uUtbeWT7R/wADzxnORDaU9gAAAABJRU5ErkJggg==" x="90" y="65" width="52" height="19.5"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ CONTENIDO PRINCIPAL ============ -->
+<main id="main">
+
+<!-- ============ OVERVIEW — "todo en un solo lugar" ============ -->
+<section class="overview section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow solid"><span class="dot">●</span> TODO EN UN SOLO LUGAR</span>
+      <h2>Piscina libre, clases y entrenamiento máster</h2>
+      <p>Elige lo que necesitas hoy. Puedes combinar varias modalidades.</p>
+    </div>
+    <div class="card-grid" id="overviewCards">
+      <!-- Contenido estático de respaldo (visible sin JavaScript); se actualiza automáticamente si editas CONFIG -->
+      <div class="o-card">
+        <div class="icon-badge" aria-hidden="true"><span class="service-no">01</span><svg class="lane-mark" viewBox="0 0 66 18"><path d="M1 3h64M1 9h64M1 15h64" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="9" r="3" fill="currentColor"/><circle cx="48" cy="9" r="3" fill="currentColor"/></svg></div>
+        <h3>Piscina libre</h3>
+        <div class="sched">Lunes a Viernes · 6:00 AM – 9:00 PM</div>
+        <div class="price">S/ 250 <span>/ mes</span></div>
+      </div>
+      <div class="o-card">
+        <div class="icon-badge" aria-hidden="true"><span class="service-no">02</span><svg class="lane-mark" viewBox="0 0 66 18"><path d="M1 3h64M1 9h64M1 15h64" stroke="currentColor" stroke-width="1.5"/><path d="m26 4 8 5-8 5M38 4l8 5-8 5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3>Clases de natación</h3>
+        <div class="sched">Lun – Vie</div>
+        <div class="from">Desde</div>
+        <div class="price">S/ 100 <span>/ mes</span></div>
+      </div>
+      <div class="o-card">
+        <div class="icon-badge" aria-hidden="true"><span class="service-no">03</span><svg class="lane-mark" viewBox="0 0 66 18"><path d="M1 3h64M1 9h64M1 15h64" stroke="currentColor" stroke-width="1.5"/><path d="M20 14 33 3l13 11" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3>Entrenamiento máster</h3>
+        <div class="sched">Lunes a Viernes · 7:00 PM – 9:00 PM</div>
+        <div class="price">S/ 200 <span>/ mes</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg preserveAspectRatio="none" viewBox="0 0 1000 90" aria-hidden="true" focusable="false"><polygon points="0,90 1000,0 1000,90" fill="#12161F"/></svg></div>
+
+<!-- ============ PISCINA LIBRE ============ -->
+<section class="section-pad" id="piscina-libre">
+  <div class="wrap">
+    <div class="detail">
+      <div>
+        <span class="eyebrow"><span class="dot">●</span> PISCINA LIBRE</span>
+        <h2 style="font-size:clamp(28px,4vw,42px);font-weight:700;margin:20px 0 16px;letter-spacing:-0.5px;">Tu momento. Tu ritmo.</h2>
+        <p style="color:var(--ink-70);font-size:17px;max-width:460px;margin-bottom:28px;">
+          Sin clases ni horarios de grupo. Nada a tu propio paso en nuestra piscina semiolímpica de 25 metros, climatizada todo el año.
+        </p>
+        <a class="btn btn-whatsapp" id="plWaBtn" href="#" target="_blank" rel="noopener">Reservar mi carril</a>
+      </div>
+      <div class="detail-panel">
+        <h3>Horario y tarifa</h3>
+        <div id="piscinaLibreInfo">
+          <div class="sched-row"><span class="lbl">Horario</span><span class="val">Lunes a Viernes · 6:00 AM – 9:00 PM</span></div>
+          <div class="sched-row"><span class="lbl">Tarifa</span><span class="val">S/ 250 / mes</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg preserveAspectRatio="none" viewBox="0 0 1000 90" aria-hidden="true" focusable="false"><polygon points="0,0 1000,90 0,90" fill="#12161F"/></svg></div>
+
+<!-- ============ CLASES ============ -->
+<section class="section-pad overview" id="clases">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow solid"><span class="dot">●</span> CLASES DE NATACIÓN</span>
+      <h2>Aprende y mejora tu nado</h2>
+      <p>Clases para niños, adolescentes, jóvenes y adultos. Elige tus días y tu horario.</p>
+    </div>
+
+    <div class="age-jump" id="ageJump">
+      <a href="#clase-0">Niños y adolescentes</a><a href="#clase-1">Jóvenes y adultos</a>
+    </div>
+    <div id="agePanels">
+      <!-- Contenido estático de respaldo (visible sin JavaScript); se actualiza automáticamente si editas CONFIG -->
+      <div class="age-panel" id="clase-0">
+        <div class="detail">
+          <div>
+            <h3 style="font-size:24px;font-weight:700;margin-bottom:10px;">Niños y adolescentes</h3>
+            <div class="sched" style="color:var(--ink-70);margin-bottom:18px;">Lun – Vie</div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px;">
+              <span class="stat-chip">4:00 – 5:00 PM</span><span class="stat-chip">5:00 – 6:00 PM</span>
+            </div>
+            <a class="btn btn-whatsapp" href="https://wa.me/51953074693?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20clases%20de%20nataci%C3%B3n%20para%20ni%C3%B1os%20y%20adolescentes." target="_blank" rel="noopener">Inscribirme</a>
+          </div>
+          <div class="detail-panel">
+            <h3>Frecuencia semanal</h3>
+            <div class="freq-table">
+              <div class="freq-cell"><div class="n">1x / semana</div><div class="p">S/ 100</div></div>
+              <div class="freq-cell"><div class="n">2x / semana</div><div class="p">S/ 150</div></div>
+              <div class="freq-cell highlight"><div class="n">3x / semana</div><div class="p">S/ 200</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="age-panel" id="clase-1">
+        <div class="detail">
+          <div>
+            <h3 style="font-size:24px;font-weight:700;margin-bottom:10px;">Jóvenes y adultos</h3>
+            <div class="sched" style="color:var(--ink-70);margin-bottom:18px;">Lun – Vie</div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px;">
+              <span class="stat-chip">6:00 – 7:00 PM</span><span class="stat-chip">7:00 – 8:00 PM</span><span class="stat-chip">8:00 – 9:00 PM</span>
+            </div>
+            <a class="btn btn-whatsapp" href="https://wa.me/51953074693?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20clases%20de%20nataci%C3%B3n%20para%20j%C3%B3venes%20y%20adultos." target="_blank" rel="noopener">Inscribirme</a>
+          </div>
+          <div class="detail-panel">
+            <h3>Frecuencia semanal</h3>
+            <div class="freq-table">
+              <div class="freq-cell"><div class="n">1x / semana</div><div class="p">S/ 100</div></div>
+              <div class="freq-cell"><div class="n">2x / semana</div><div class="p">S/ 150</div></div>
+              <div class="freq-cell highlight"><div class="n">3x / semana</div><div class="p">S/ 200</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><svg preserveAspectRatio="none" viewBox="0 0 1000 90" aria-hidden="true" focusable="false"><polygon points="0,90 1000,0 1000,90" fill="#0A0E16"/></svg></div>
+
+<!-- ============ ENTRENAMIENTO MÁSTER ============ -->
+<section class="section-pad" id="master">
+  <div class="wrap">
+    <div class="detail">
+      <div class="detail-panel" style="order:2;">
+        <h3>Horario y tarifa</h3>
+        <div id="masterInfo">
+          <div class="sched-row"><span class="lbl">Horario</span><span class="val">Lunes a Viernes · 7:00 PM – 9:00 PM</span></div>
+          <div class="sched-row"><span class="lbl">Tarifa</span><span class="val">S/ 200 / mes</span></div>
+        </div>
+      </div>
+      <div style="order:1;">
+        <span class="eyebrow"><span class="dot">●</span> ENTRENAMIENTO MÁSTER</span>
+        <h2 style="font-size:clamp(28px,4vw,42px);font-weight:700;margin:20px 0 16px;letter-spacing:-0.5px;">Nada con propósito</h2>
+        <p style="color:var(--ink-70);font-size:17px;max-width:460px;margin-bottom:28px;">
+          Entrenamiento dirigido para nadadores máster que buscan constancia, técnica y resistencia.
+        </p>
+        <a class="btn btn-whatsapp" id="masterWaBtn" href="#" target="_blank" rel="noopener">Quiero entrenar</a>
+      </div>
+    </div>
+  </div>
+  <style>
+    @media (max-width:900px){#master .detail-panel{order:1 !important;}#master .detail > div:last-child{order:2 !important;}}
+  </style>
+</section>
+
+<div class="divider"><svg preserveAspectRatio="none" viewBox="0 0 1000 90" aria-hidden="true" focusable="false"><polygon points="0,0 1000,90 0,90" fill="#12161F"/></svg></div>
+
+<!-- ============ FAQ ============ -->
+<section class="section-pad overview" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow solid"><span class="dot">●</span> PREGUNTAS FRECUENTES</span>
+      <h2>Todo lo que debes saber antes de nadar</h2>
+      <p>Resolvemos tus dudas para que empieces con confianza.</p>
+    </div>
+    <div class="faq-list" id="faqList">
+      <!-- Contenido estático de respaldo (visible sin JavaScript); se actualiza automáticamente si editas CONFIG -->
+      <details class="faq-item" open>
+        <summary>¿Dónde se encuentran ubicados?<span class="plus" aria-hidden="true">+</span></summary>
+        <div class="a">En la piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión, Trujillo.</div>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué implementos necesito para comenzar?<span class="plus" aria-hidden="true">+</span></summary>
+        <div class="a">Gorro, lentes, sandalias y ropa de baño de licra.</div>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué medidas tiene la piscina?<span class="plus" aria-hidden="true">+</span></summary>
+        <div class="a">Piscina semi olímpica de 25 metros de largo.</div>
+      </details>
+      <details class="faq-item">
+        <summary>¿La piscina es temperada?<span class="plus" aria-hidden="true">+</span></summary>
+        <div class="a">Sí, es climatizada entre 26° y 27°.</div>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cuál es la edad mínima y máxima?<span class="plus" aria-hidden="true">+</span></summary>
+        <div class="a">Niños desde 6 años. Adultos sin límite de edad.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="section-pad" id="contacto">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <span class="eyebrow">UBICACIÓN</span>
+        <h2 id="contactAddress" style="margin-top:18px;">Gran Unidad Escolar José Faustino Sánchez Carrión</h2>
+        <p id="contactBlurb">Trujillo, Perú · Abierto Lunes a Viernes de 6:00 AM a 9:00 PM.</p>
+        <div class="contact-info" id="contactInfo">
+          <div class="row"><span class="contact-label">Sede</span><span class="contact-value">Gran Unidad Escolar José Faustino Sánchez Carrión</span></div>
+          <div class="row"><span class="contact-label">WhatsApp</span><span class="contact-value">953 074 693</span></div>
+          <div class="row"><span class="contact-label">Instagram</span><span class="contact-value">@aquaxtremetrujillo</span></div>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div style="font-size:14px;letter-spacing:2px;font-weight:700;opacity:0.85;">ESCRÍBENOS AHORA</div>
+        <div class="big-num" id="contactPhoneBig">953 074 693</div>
+        <a class="btn btn-whatsapp" id="contactWaBtn" href="#" target="_blank" rel="noopener" style="width:100%;">Abrir WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap footer-inner">
+    <img src="data:image/png;base64,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" alt="AquaXtreme Trujillo" width="1236" height="169">
+    <div class="footer-links">
+      <a href="#piscina-libre">Piscina libre</a>
+      <a href="#clases">Clases</a>
+      <a href="#master">Máster</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="fine" id="footerFine">© 2026 AXT Trujillo · @aquaxtremetrujillo</div>
+  </div>
+</footer>
+
+<a class="float-wa" id="floatWaBtn" href="#" target="_blank" rel="noopener" aria-label="Abrir conversación en WhatsApp">WA</a>
+
+
+<script>
+/* =====================================================================
+   ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗
+  ██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝
+  ██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗
+  ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║
+  ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝
+   ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝
+
+  👋 EDITA SOLO ESTE BLOQUE para actualizar la información del sitio.
+  No necesitas tocar el HTML ni el CSS: cambia los valores entre
+  comillas ("...") y guarda el archivo. Al recargar la página en el
+  navegador verás los cambios reflejados en todas las secciones.
+
+  Consejos:
+  - Los precios son texto libre, puedes escribir "S/ 100" o "Gratis".
+  - Para agregar o quitar una pregunta frecuente, copia o borra un
+    bloque { pregunta: "...", respuesta: "..." } completo dentro de faq.
+  - Para agregar un horario extra, copia una línea dentro del arreglo
+    "horarios" siguiendo el mismo formato.
+  ===================================================================== */
+const CONFIG = {
+
+  // ---- Datos generales del club ----
+  club: {
+    nombre: "AXT Trujillo",
+    telefonoWhatsapp: "51953074693",       // con código de país, solo números
+    telefonoVisible: "953 074 693",
+    direccion: "Piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión",
+    ciudad: "Trujillo, Perú",
+    instagram: "@aquaxtremetrujillo",
+  },
+
+  // ---- Textos del Hero (portada) ----
+  hero: {
+    subtitulo: "Piscina semiolímpica y climatizada en el corazón de Trujillo. Elige tu horario, tu ritmo y tu categoría.",
+    stats: [
+      { texto: "25 m semiolímpica" },
+      { texto: "26° – 27° climatizada" },
+      { texto: "Lun a Vie · 6:00 AM – 9:00 PM" },
+    ],
+  },
+
+  // ---- Piscina libre ----
+  piscinaLibre: {
+    horario: "Lunes a Viernes · 6:00 AM – 9:00 PM",
+    precio: "S/ 250",
+    periodo: "/ mes",
+  },
+
+  // ---- Clases de natación ----
+  // Puedes agregar o quitar categorías (ej. "Adultos mayores") copiando
+  // un bloque completo dentro de "categorias".
+  clases: {
+    categorias: [
+      {
+        nombre: "Niños y adolescentes",
+        horarios: ["4:00 – 5:00 PM", "5:00 – 6:00 PM"],
+        dias: "Lun – Vie",
+        precios: [
+          { frecuencia: "1x / semana", precio: "S/ 100" },
+          { frecuencia: "2x / semana", precio: "S/ 150" },
+          { frecuencia: "3x / semana", precio: "S/ 200", destacado: true },
+        ],
+      },
+      {
+        nombre: "Jóvenes y adultos",
+        horarios: ["6:00 – 7:00 PM", "7:00 – 8:00 PM", "8:00 – 9:00 PM"],
+        dias: "Lun – Vie",
+        precios: [
+          { frecuencia: "1x / semana", precio: "S/ 100" },
+          { frecuencia: "2x / semana", precio: "S/ 150" },
+          { frecuencia: "3x / semana", precio: "S/ 200", destacado: true },
+        ],
+      },
+    ],
+  },
+
+  // ---- Entrenamiento máster ----
+  master: {
+    horario: "Lunes a Viernes · 7:00 PM – 9:00 PM",
+    precio: "S/ 200",
+    periodo: "/ mes",
+  },
+
+  // ---- Preguntas frecuentes ----
+  // Agrega, edita o elimina preguntas libremente.
+  faq: [
+    {
+      pregunta: "¿Dónde se encuentran ubicados?",
+      respuesta: "En la piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión, Trujillo.",
+    },
+    {
+      pregunta: "¿Qué implementos necesito para comenzar?",
+      respuesta: "Gorro, lentes, sandalias y ropa de baño de licra.",
+    },
+    {
+      pregunta: "¿Qué medidas tiene la piscina?",
+      respuesta: "Piscina semi olímpica de 25 metros de largo.",
+    },
+    {
+      pregunta: "¿La piscina es temperada?",
+      respuesta: "Sí, es climatizada entre 26° y 27°.",
+    },
+    {
+      pregunta: "¿Cuál es la edad mínima y máxima?",
+      respuesta: "Niños desde 6 años. Adultos sin límite de edad.",
+    },
+  ],
+};
+
+/* =====================================================================
+   A partir de aquí el script solo LEE lo de arriba y arma la página.
+   No hace falta editar nada debajo de esta línea.
+   ===================================================================== */
+(function render(){
+  const waLink = (msg) => `https://wa.me/${CONFIG.club.telefonoWhatsapp}${msg ? '?text=' + encodeURIComponent(msg) : ''}`;
+
+  // Nav + hero + floating + section WhatsApp buttons
+  document.querySelectorAll('#navWaBtn,#heroWaBtn,#floatWaBtn').forEach(el=>{
+    el.href = waLink(`Hola, quiero información sobre ${CONFIG.club.nombre}.`);
+  });
+  document.getElementById('plWaBtn').href = waLink('Hola, quiero reservar un carril en piscina libre.');
+  document.getElementById('masterWaBtn').href = waLink('Hola, quiero información sobre entrenamiento máster.');
+  document.getElementById('contactWaBtn').href = waLink(`Hola, quiero información sobre ${CONFIG.club.nombre}.`);
+
+  // Hero subtitle + stats
+  document.getElementById('heroSubtitle').textContent = CONFIG.hero.subtitulo;
+  document.getElementById('heroStats').innerHTML = CONFIG.hero.stats
+    .map(s => `<div class="stat-chip">${s.texto}</div>`).join('');
+
+  // Overview cards
+  const ov = document.getElementById('overviewCards');
+  ov.innerHTML = `
+    <div class="o-card">
+      <div class="icon-badge" aria-hidden="true"><span class="service-no">01</span><svg class="lane-mark" viewBox="0 0 66 18"><path d="M1 3h64M1 9h64M1 15h64" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="9" r="3" fill="currentColor"/><circle cx="48" cy="9" r="3" fill="currentColor"/></svg></div>
+      <h3>Piscina libre</h3>
+      <div class="sched">${CONFIG.piscinaLibre.horario}</div>
+      <div class="price">${CONFIG.piscinaLibre.precio} <span>${CONFIG.piscinaLibre.periodo}</span></div>
+    </div>
+    <div class="o-card">
+      <div class="icon-badge" aria-hidden="true"><span class="service-no">02</span><svg class="lane-mark" viewBox="0 0 66 18"><path d="M1 3h64M1 9h64M1 15h64" stroke="currentColor" stroke-width="1.5"/><path d="m26 4 8 5-8 5M38 4l8 5-8 5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <h3>Clases de natación</h3>
+      <div class="sched">${CONFIG.clases.categorias[0].dias}</div>
+      <div class="from">Desde</div>
+      <div class="price">${CONFIG.clases.categorias[0].precios[0].precio} <span>/ mes</span></div>
+    </div>
+    <div class="o-card">
+      <div class="icon-badge" aria-hidden="true"><span class="service-no">03</span><svg class="lane-mark" viewBox="0 0 66 18"><path d="M1 3h64M1 9h64M1 15h64" stroke="currentColor" stroke-width="1.5"/><path d="M20 14 33 3l13 11" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+      <h3>Entrenamiento máster</h3>
+      <div class="sched">${CONFIG.master.horario}</div>
+      <div class="price">${CONFIG.master.precio} <span>${CONFIG.master.periodo}</span></div>
+    </div>
+  `;
+
+  // Piscina libre detail
+  document.getElementById('piscinaLibreInfo').innerHTML = `
+    <div class="sched-row"><span class="lbl">Horario</span><span class="val">${CONFIG.piscinaLibre.horario}</span></div>
+    <div class="sched-row"><span class="lbl">Tarifa</span><span class="val">${CONFIG.piscinaLibre.precio} ${CONFIG.piscinaLibre.periodo}</span></div>
+  `;
+
+  // Master detail
+  document.getElementById('masterInfo').innerHTML = `
+    <div class="sched-row"><span class="lbl">Horario</span><span class="val">${CONFIG.master.horario}</span></div>
+    <div class="sched-row"><span class="lbl">Tarifa</span><span class="val">${CONFIG.master.precio} ${CONFIG.master.periodo}</span></div>
+  `;
+
+  // Clases — se muestran TODAS las categorías a la vez (con enlaces rápidos arriba)
+  const jumpEl = document.getElementById('ageJump');
+  const panelsEl = document.getElementById('agePanels');
+  jumpEl.innerHTML = CONFIG.clases.categorias
+    .map((c,i) => `<a href="#clase-${i}">${c.nombre}</a>`).join('');
+
+  panelsEl.innerHTML = CONFIG.clases.categorias.map((c,i) => `
+    <div class="age-panel" id="clase-${i}">
+      <div class="detail">
+        <div>
+          <h3 style="font-size:24px;font-weight:700;margin-bottom:10px;">${c.nombre}</h3>
+          <div class="sched" style="color:var(--ink-70);margin-bottom:18px;">${c.dias}</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px;">
+            ${c.horarios.map(h=>`<span class="stat-chip">${h}</span>`).join('')}
+          </div>
+          <a class="btn btn-whatsapp" href="${waLink('Hola, quiero información sobre clases de natación para ' + c.nombre.toLowerCase() + '.')}" target="_blank" rel="noopener">Inscribirme</a>
+        </div>
+        <div class="detail-panel">
+          <h3>Frecuencia semanal</h3>
+          <div class="freq-table">
+            ${c.precios.map(p=>`
+              <div class="freq-cell ${p.destacado?'highlight':''}">
+                <div class="n">${p.frecuencia}</div>
+                <div class="p">${p.precio}</div>
+              </div>`).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  // FAQ
+  document.getElementById('faqList').innerHTML = CONFIG.faq.map((f,i)=>`
+    <details class="faq-item" ${i===0?'open':''}>
+      <summary>${f.pregunta}<span class="plus" aria-hidden="true">+</span></summary>
+      <div class="a">${f.respuesta}</div>
+    </details>
+  `).join('');
+
+  // Contact
+  document.getElementById('contactAddress').textContent = CONFIG.club.direccion;
+  document.getElementById('contactBlurb').textContent = `${CONFIG.club.ciudad} · Abierto Lunes a Viernes de 6:00 AM a 9:00 PM.`;
+  document.getElementById('contactInfo').innerHTML = `
+    <div class="row"><span class="contact-label">Sede</span><span class="contact-value">${CONFIG.club.direccion}</span></div>
+    <div class="row"><span class="contact-label">WhatsApp</span><span class="contact-value">${CONFIG.club.telefonoVisible}</span></div>
+    <div class="row"><span class="contact-label">Instagram</span><span class="contact-value">${CONFIG.club.instagram}</span></div>
+  `;
+  document.getElementById('contactPhoneBig').textContent = CONFIG.club.telefonoVisible;
+  document.getElementById('footerFine').textContent = `© ${new Date().getFullYear()} ${CONFIG.club.nombre} · ${CONFIG.club.instagram}`;
+
+  // mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinksEl = document.getElementById('navLinks');
+  navToggle.addEventListener('click', ()=>{
+    const isOpen = navLinksEl.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.querySelectorAll('#navLinks a').forEach(a=>{
+    a.addEventListener('click', ()=>{
+      navLinksEl.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Restaura el destino si la página se abrió directamente con un enlace interno.
+  if (window.location.hash) {
+    requestAnimationFrame(() => {
+      document.querySelector(window.location.hash)?.scrollIntoView({ block: 'start' });
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

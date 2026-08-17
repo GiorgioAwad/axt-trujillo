@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- =====================================================================
+     SEO — bloque de constantes editables
+     Si cambias de dominio, teléfono, dirección o redes sociales,
+     actualiza también las mismas constantes dentro de CONFIG (más abajo)
+     y en los archivos robots.txt / sitemap.xml / manifest.json.
+     ===================================================================== -->
+<!-- PENDIENTE DE COMPLETAR: reemplazar por el dominio oficial cuando el sitio esté publicado -->
+<!-- Dominio oficial usado en canonical, Open Graph y JSON-LD: https://www.nataciontrujillo.pe/ -->
+
+<title>Clases de Natación en Trujillo | AXT Trujillo</title>
+<meta name="description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada (26°–27°). Horarios flexibles de 6 AM a 9 PM.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.nataciontrujillo.pe/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Clases de Natación en Trujillo | AXT Trujillo">
+<meta property="og:description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, horarios flexibles de 6 AM a 9 PM.">
+<meta property="og:url" content="https://www.nataciontrujillo.pe/">
+<meta property="og:image" content="https://www.nataciontrujillo.pe/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AXT Trujillo — piscina libre, clases de natación y entrenamiento máster">
+<meta property="og:locale" content="es_PE">
+<meta property="og:site_name" content="AXT Trujillo">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clases de Natación en Trujillo | AXT Trujillo">
+<meta name="twitter:description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, horarios flexibles de 6 AM a 9 PM.">
+<meta name="twitter:image" content="https://www.nataciontrujillo.pe/og-image.png">
+<meta name="twitter:image:alt" content="AXT Trujillo — piscina libre, clases de natación y entrenamiento máster">
+
+<!-- Favicon (embebido como data-URI para mantener el archivo autocontenido) -->
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACcUlEQVR4nO2XW0gUYRiGn29m0zwEChYkBFIXBQUdhK6iSJNQg8A0K6rV8KboQiskonKtsIMHLKgbCxQL2pVCKFmCtSwMM9AysejggTASSrxJbHV2tqtdatvJXd3dKHwvv/n43+d7//nnZwQ/isssdvurG8lUkB9M+y+S2RiHAkIJhTmAVm+dOcBszWcjZfqWwDWTFJRQTx8sREgTmAlEWACCgQgbQKAKK0AgKYQ9gekgIrIFf4IwGT0QEQRQVQVbWRHp65ZTeLGRzjeDvKg7wcPut+SfuQFA6a4Mju/ZSpRJ9btWfFZJ8ACqImguHfOW9WSkruDZ60EuH84lZfcpzOcbsJUVUZybxuSUxun9WdTdf8rL/mGWJSdxJC+dilsPGP4yhiLiTcHffSFGHyJFBBHh/U0L7b39HKq9zcidC1jqW6iyOTi6M53ygm0A3hrAypTFdF4rZdWBcwyNjP4+sQ+EYQK6203OhtUsSlhAtc3Btwkn1kddlOSlcbX5MdW2VuapKooiVNkczI8yobl0EuJjAUiMj2VYHUNVFJxTmndd3yQMAQAs5myevPpAT/8nFBHONtrJ35xKzsY1AJzclwnA90mNmqZWRASXrgPg0nU0l47bT74/QxgC5G5ay9LkJAovNSIimFSFoZFRmtq6qTm4g7iYaMobWnBOaVQUbWfg81ea23swqcEdLMNuizmbjr4But59RACX7kZEqLQ6iIuJxv68j0qrgyt327jX0cv1Y3tZsjCR8YnJgIw9R9PwJYyU/u+7YA5gDuDfABi318r0beHRuL1W/n4CHpJIG3s8Fd9CJM3B5+/Yo3DdD/6G/AEfjOG+Jp9ELAAAAABJRU5ErkJggg==">
+<link rel="icon" type="image/png" sizes="180x180" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" as="image" href="piscina-carriles.jpg" fetchpriority="high">
+<meta name="theme-color" content="#040D14">
+
+<!-- Fuente: preconnect + carga no bloqueante -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap"></noscript>
+
+<!-- ===================================================================
+     Datos estructurados Schema.org (JSON-LD)
+     Tipo: SportsActivityLocation (subtipo de LocalBusiness), WebSite y
+     FAQPage. Solo contiene datos reales confirmados en el proyecto.
+     =================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SportsActivityLocation",
+      "@id": "https://www.nataciontrujillo.pe/#negocio",
+      "name": "AXT Trujillo",
+      "alternateName": "AquaXtreme Trujillo",
+      "description": "Club de natación en Trujillo con piscina libre, clases de natación para niños, adolescentes, jóvenes y adultos, y entrenamiento máster. Piscina semiolímpica de 25 metros, climatizada entre 26° y 27°.",
+      "url": "https://www.nataciontrujillo.pe/",
+      "telephone": "+51953074693",
+      "email": "PENDIENTE DE COMPLETAR",
+      "image": "https://www.nataciontrujillo.pe/og-image.png",
+      "logo": "PENDIENTE DE COMPLETAR",
+      "priceRange": "S/ 100 - S/ 250",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gran Unidad Escolar José Faustino Sánchez Carrión",
+        "addressLocality": "Trujillo",
+        "addressRegion": "La Libertad",
+        "addressCountry": "PE"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "06:00",
+        "closes": "21:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/aquaxtremetrujillo"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Piscina libre",
+          "description": "Acceso libre a piscina semiolímpica climatizada durante todo 2026 con un único pago.",
+          "price": "250",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Clases de natación — Niños y adolescentes",
+          "description": "Clases de natación para niños y adolescentes, lunes a viernes.",
+          "price": "100",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Clases de natación — Jóvenes y adultos",
+          "description": "Clases de natación para jóvenes y adultos, lunes a viernes.",
+          "price": "100",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "name": "Entrenamiento máster",
+          "description": "Entrenamiento dirigido para nadadores máster, lunes a viernes de 7:00 PM a 9:00 PM.",
+          "price": "200",
+          "priceCurrency": "PEN",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.nataciontrujillo.pe/#website",
+      "url": "https://www.nataciontrujillo.pe/",
+      "name": "AXT Trujillo",
+      "inLanguage": "es-PE",
+      "publisher": { "@id": "https://www.nataciontrujillo.pe/#negocio" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde se encuentran ubicados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión, Trujillo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué implementos necesito para comenzar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gorro, lentes, sandalias y ropa de baño de licra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué medidas tiene la piscina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Piscina semi olímpica de 25 metros de largo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La piscina es temperada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, es climatizada entre 26° y 27°."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la edad mínima y máxima?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niños desde 6 años. Adultos sin límite de edad."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+/* =====================================================================
+   AXT TRUJILLO — hoja de estilos
+
+   PALETA: azul y morado conviven en toda la página, no por secciones.
+   El fondo es un negro azulado sobre el que flotan resplandores muy
+   suaves —unos violeta, otros cyan— que se cruzan al hacer scroll. Esa
+   es la mezcla: luz de color sobre fondo oscuro, no franjas de color
+   pegadas una junto a otra. Los colores del agua salen muestreados de
+   las fotos reales de la piscina; el violeta es el morado de marca.
+
+   No necesitas tocar este bloque para actualizar textos, precios u
+   horarios: toda esa información vive en el bloque CONFIG dentro de
+   la etiqueta <script> al final del archivo.
+   ===================================================================== */
+:root{
+  /* ---- Fondo ---- */
+  --ground:#070B18;          /* negro azulado con matiz violeta */
+  --ground-deep:#05080F;
+
+  /* ---- Agua (muestreado de las fotos de la sede) ---- */
+  --agua:#1D6B87;
+  --agua-clara:#2E9CBE;
+  --cyan:#8FE7FF;
+
+  /* ---- Morado de marca ---- */
+  --morado:#7A1FC7;
+  --morado-luz:#A929E0;
+  --violeta:#C9A6FF;
+
+  /* ---- Acción ---- */
+  --verde:#25D366;           /* verde WhatsApp */
+  --verde-hondo:#04210F;
+
+  --blanco:#FFFFFF;
+  --t70:rgba(255,255,255,0.70);
+  --t50:rgba(255,255,255,0.48);
+  --linea:rgba(255,255,255,0.09);
+  --linea-fuerte:rgba(255,255,255,0.18);
+
+  --maxw:1180px;
+  --r:14px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  background:var(--ground);
+  color:var(--blanco);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+section{position:relative;}
+.section-pad{padding:96px 0;}
+
+/* Tipografía de display: Archivo, con cifras tabulares para que los
+   horarios y precios alineen en columna como una lista de partida. */
+h1,h2,h3,.num{
+  font-family:'Archivo','Poppins',-apple-system,'Segoe UI',sans-serif;
+  font-variant-numeric:tabular-nums;
+  font-feature-settings:"tnum" 1;
+}
+h1,h2,h3{font-weight:700;letter-spacing:-0.025em;line-height:1.06;}
+
+/* la barra de navegación es fija: los anclajes se detienen debajo */
+[id]{scroll-margin-top:92px;}
+
+/* ---------- accesibilidad ---------- */
+.skip-link{
+  position:absolute;left:12px;top:-60px;z-index:100;
+  background:var(--cyan);color:#04202E;font-weight:700;
+  padding:12px 20px;border-radius:var(--r);transition:top .15s ease;
+}
+.skip-link:focus{top:12px;}
+a:focus-visible,button:focus-visible,summary:focus-visible{
+  outline:2px solid var(--cyan);outline-offset:3px;border-radius:4px;
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:0.001ms !important;transition-duration:0.001ms !important;}
+}
+
+/* =====================================================================
+   LA MEZCLA — resplandores de violeta y cyan sobre el fondo.
+   Van sobre <main> como una sola capa continua, así los dos colores se
+   cruzan a lo largo del scroll en vez de repartirse por secciones.
+   ===================================================================== */
+main{
+  position:relative;
+  background:
+    radial-gradient(1100px 780px at 8% 2%,   rgba(122,31,199,0.30), transparent 62%),
+    radial-gradient(1000px 720px at 96% 17%, rgba(29,107,135,0.34), transparent 60%),
+    radial-gradient(1000px 760px at 4% 38%,  rgba(46,156,190,0.20), transparent 60%),
+    radial-gradient(1150px 800px at 92% 56%, rgba(122,31,199,0.26), transparent 62%),
+    radial-gradient(1000px 720px at 10% 76%, rgba(169,41,224,0.22), transparent 60%),
+    var(--ground);
+}
+
+/* Placas apenas perceptibles que separan una sección de la siguiente
+   sin necesidad de adornos entre ellas. */
+#jornada,#clases{background:rgba(255,255,255,0.022);}
+#jornada{border-block:1px solid var(--linea);}
+#clases{border-block:1px solid var(--linea);}
+
+/* ---------- eyebrow ---------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:12px;
+  font-size:11px;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;
+  color:var(--cyan);
+}
+.eyebrow::before{content:"";width:26px;height:2px;background:currentColor;flex:0 0 auto;}
+
+/* ---------- botones ----------
+   El verde de WhatsApp queda reservado para los tres momentos en que
+   de verdad se convierte: portada, contacto y el botón flotante. En las
+   secciones intermedias se usa .cta-line, que pesa mucho menos. */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:54px;padding:16px 30px;border-radius:var(--r);
+  font-weight:700;font-size:14.5px;letter-spacing:.01em;
+  border:none;cursor:pointer;white-space:nowrap;
+  transition:background .2s ease, box-shadow .2s ease, border-color .2s ease, transform .2s ease;
+}
+.btn-whatsapp{
+  background:var(--verde);color:var(--verde-hondo);
+  box-shadow:0 1px 0 rgba(255,255,255,0.28) inset, 0 12px 30px rgba(37,211,102,0.20);
+}
+.btn-whatsapp:hover{background:#2EE874;box-shadow:0 1px 0 rgba(255,255,255,0.3) inset, 0 16px 40px rgba(37,211,102,0.32);}
+.btn-ghost{
+  background:rgba(255,255,255,0.04);color:var(--blanco);
+  border:1px solid var(--linea-fuerte);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+}
+.btn-ghost:hover{border-color:rgba(143,231,255,0.6);background:rgba(143,231,255,0.09);}
+
+/* CTA de línea: la llamada discreta de las secciones intermedias */
+.cta-line{
+  display:inline-block;
+  font-size:14px;font-weight:600;letter-spacing:.01em;
+  color:var(--cyan);
+  padding-bottom:10px;
+  border-bottom:1px solid rgba(143,231,255,0.30);
+  transition:border-color .2s ease, color .2s ease;
+}
+.cta-line:hover{border-bottom-color:var(--cyan);color:#D6F6FF;}
+
+/* ---------- encabezados de sección ---------- */
+.section-head{max-width:670px;margin-bottom:58px;}
+.section-head .eyebrow{margin-bottom:20px;}
+.section-head h2{font-size:clamp(29px,3.9vw,46px);margin-bottom:16px;}
+.section-head p{color:var(--t70);font-size:17px;}
+
+/* =====================================================================
+   NAV
+   ===================================================================== */
+.nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(7,11,24,0.72);
+  backdrop-filter:blur(22px) saturate(150%);
+  -webkit-backdrop-filter:blur(22px) saturate(150%);
+  border-bottom:1px solid var(--linea);
+}
+.nav-inner{
+  max-width:var(--maxw);margin:0 auto;padding:15px 28px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+}
+.nav-brand{display:flex;align-items:center;gap:14px;}
+.nav-brand img.mark{height:30px;width:auto;}
+.nav-brand img.word{height:17px;width:auto;margin-top:2px;}
+.nav-links{display:flex;align-items:center;gap:28px;}
+.nav-links a{font-size:13px;font-weight:500;color:var(--t70);transition:color .15s;white-space:nowrap;}
+.nav-links a:hover{color:var(--cyan);}
+.nav-cta{display:flex;align-items:center;gap:14px;}
+/* En la barra el botón va sin halo: a esa escala el resplandor se lee
+   como brillo barato, no como profundidad. */
+.nav-cta .btn{min-height:44px;padding:12px 24px;font-size:13.5px;}
+.nav-cta .btn-whatsapp{box-shadow:0 1px 0 rgba(255,255,255,0.26) inset;}
+.nav-cta .btn-whatsapp:hover{box-shadow:0 1px 0 rgba(255,255,255,0.3) inset, 0 6px 18px rgba(37,211,102,0.26);}
+.nav-toggle{
+  display:none;width:42px;height:42px;background:none;
+  border:1px solid var(--linea-fuerte);border-radius:12px;color:var(--blanco);
+  cursor:pointer;align-items:center;justify-content:center;
+}
+.menu-bars,.menu-bars::before,.menu-bars::after{display:block;width:17px;height:1.5px;background:currentColor;transition:transform .2s ease;}
+.menu-bars{position:relative;}
+.menu-bars::before,.menu-bars::after{content:"";position:absolute;left:0;}
+.menu-bars::before{top:-5px;}
+.menu-bars::after{top:5px;}
+.nav-toggle[aria-expanded="true"] .menu-bars{background:transparent;}
+.nav-toggle[aria-expanded="true"] .menu-bars::before{top:0;transform:rotate(45deg);}
+.nav-toggle[aria-expanded="true"] .menu-bars::after{top:0;transform:rotate(-45deg);}
+
+@media (max-width:1000px){
+  .nav-links{
+    position:absolute;top:100%;left:0;right:0;
+    background:rgba(9,13,28,0.97);
+    backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);
+    border-bottom:1px solid var(--linea);
+    flex-direction:column;align-items:flex-start;gap:0;
+    max-height:0;overflow:hidden;transition:max-height .25s ease;
+  }
+  .nav-links.open{max-height:440px;}
+  .nav-links a{padding:16px 28px;width:100%;border-bottom:1px solid var(--linea);}
+  .nav-toggle{display:flex;}
+  .nav-cta .btn-ghost{display:none;}
+}
+@media (max-width:620px){
+  .nav-inner{padding:12px 20px;}
+  .nav-brand img.word{display:none;}
+  .nav-cta{display:none;}
+  .nav-toggle{margin-left:auto;}
+}
+
+/* =====================================================================
+   PORTADA — foto real de la piscina + la gorra AXT
+   ===================================================================== */
+.hero{
+  position:relative;overflow:hidden;
+  min-height:min(88vh,820px);
+  display:flex;align-items:center;
+  background:var(--ground);
+}
+.hero-photo{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center 40%;
+}
+/* Velo doble: lo justo para que el texto tenga contraste sin apagar el
+   agua, más una capa violeta que enlaza la portada con el resto. */
+.hero-veil{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(760px 620px at 76% 46%, rgba(122,31,199,0.42), transparent 66%),
+    linear-gradient(93deg, rgba(7,11,24,0.90) 0%, rgba(7,11,24,0.62) 38%, rgba(7,11,24,0.18) 74%, rgba(7,11,24,0.08) 100%),
+    linear-gradient(180deg, rgba(7,11,24,0.56) 0%, rgba(7,11,24,0.18) 32%, rgba(7,11,24,0.72) 80%, var(--ground) 100%);
+}
+.hero-inner{
+  position:relative;z-index:2;width:100%;
+  max-width:var(--maxw);margin:0 auto;padding:132px 28px 56px;
+}
+/* La columna de texto manda: el titular tiene que caber en dos líneas,
+   una por cada idea. La gorra ocupa lo que sobra. */
+.hero-grid{display:grid;grid-template-columns:1.35fr 0.65fr;gap:44px;align-items:center;}
+.hero h1{
+  font-size:clamp(38px,4.4vw,54px);
+  margin:24px 0 22px;
+  text-shadow:0 2px 30px rgba(7,11,24,0.8);
+}
+.hero h1 .accent{color:var(--cyan);display:block;}
+.hero p{
+  font-size:18px;color:rgba(255,255,255,0.86);max-width:500px;margin-bottom:36px;
+  text-shadow:0 1px 18px rgba(7,11,24,0.7);
+}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:44px;}
+
+/* La gorra: el objeto de marca, con su halo violeta */
+.hero-object{position:relative;display:flex;align-items:center;justify-content:center;min-height:340px;}
+.hero-object::before{
+  content:"";position:absolute;width:80%;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,rgba(169,41,224,0.60) 0%,rgba(122,31,199,0.30) 42%,rgba(143,231,255,0.10) 64%,transparent 74%);
+  filter:blur(34px);
+}
+.cap{position:relative;width:min(370px,90%);filter:drop-shadow(0 26px 52px rgba(0,0,0,0.55));}
+
+/* Franja de datos duros al pie de la portada */
+.hero-stats{
+  display:flex;flex-wrap:wrap;
+  border-top:1px solid var(--linea-fuerte);padding-top:20px;
+}
+.hero-stats .stat{
+  padding:2px 26px;font-size:13.5px;font-weight:500;color:rgba(255,255,255,0.88);
+  border-right:1px solid var(--linea);
+}
+.hero-stats .stat:first-child{padding-left:0;}
+.hero-stats .stat:last-child{border-right:0;}
+
+@media (max-width:900px){
+  .hero{min-height:auto;}
+  .hero-inner{padding:104px 28px 46px;}
+  .hero-grid{grid-template-columns:1fr;gap:6px;}
+  .hero-object{order:-1;min-height:210px;}
+  .cap{width:210px;}
+  .hero-veil{
+    background:
+      radial-gradient(520px 400px at 62% 18%, rgba(122,31,199,0.26), transparent 68%),
+      linear-gradient(180deg, rgba(7,11,24,0.60) 0%, rgba(7,11,24,0.34) 24%, rgba(7,11,24,0.84) 72%, var(--ground) 100%);
+  }
+}
+@media (max-width:620px){
+  .wrap{padding-left:22px;padding-right:22px;}
+  .section-pad{padding:70px 0;}
+  .section-head{margin-bottom:40px;}
+  .hero-inner{padding:88px 22px 42px;}
+  .hero-object{min-height:170px;}
+  .cap{width:168px;}
+  .hero h1{font-size:clamp(33px,9.6vw,44px);margin:20px 0 18px;}
+  .hero p{font-size:16.5px;margin-bottom:30px;}
+  .hero-ctas{display:grid;grid-template-columns:1fr;margin-bottom:34px;}
+  .hero-ctas .btn{width:100%;}
+  .hero-stats{flex-direction:column;gap:9px;}
+  .hero-stats .stat{padding:0;border-right:0;}
+}
+
+/* =====================================================================
+   FIRMA — EL DÍA EN EL AGUA
+   Cada modalidad es un carril; la barra ocupa las horas reales en que
+   está disponible, sobre un eje de 6:00 AM a 9:00 PM. Responde de un
+   vistazo la única pregunta que importa: ¿a qué hora puedo ir?
+   ===================================================================== */
+.lanes{margin-top:8px;}
+.lane-axis,.lane{
+  display:grid;
+  grid-template-columns:206px minmax(0,1fr) 100px;
+  gap:0 26px;align-items:center;
+}
+.lane-axis{margin-bottom:14px;}
+.axis-track{position:relative;height:16px;}
+.axis-track i{
+  position:absolute;top:0;transform:translateX(-50%);white-space:nowrap;
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-size:11px;font-weight:600;letter-spacing:.06em;color:var(--t50);font-style:normal;
+}
+.axis-track i:first-child{transform:none;}
+.axis-track i:last-child{transform:translateX(-100%);}
+
+.lane{position:relative;padding:19px 0;transition:background .18s ease;}
+/* la soga de carril que separa cada fila */
+.lane::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:3px;border-radius:2px;
+  background:repeating-linear-gradient(90deg,
+    rgba(143,231,255,0.30) 0 8px,
+    rgba(255,255,255,0.04) 8px 15px);
+}
+.lane:last-child::after{opacity:.4;}
+.lane:hover{background:rgba(143,231,255,0.035);}
+.lane:hover .lane-bar{filter:brightness(1.16);}
+
+.lane-name{font-family:'Archivo',sans-serif;font-size:16.5px;font-weight:600;letter-spacing:-0.01em;}
+.lane-when{display:block;margin-top:3px;font-size:12.5px;color:var(--t50);font-variant-numeric:tabular-nums;}
+
+.lane-track{position:relative;height:48px;}
+.lane-bar{
+  position:absolute;top:0;bottom:0;
+  left:var(--from);right:var(--to);
+  border-radius:8px;
+  background:linear-gradient(90deg,var(--agua) 0%,var(--agua-clara) 62%,#4FB6D6 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.26), 0 6px 26px rgba(46,156,190,0.24);
+  display:flex;align-items:center;justify-content:center;   /* la hora va centrada en su barra */
+  transform-origin:left center;
+  transition:filter .18s ease;
+}
+.lane-bar .hrs{
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-size:12px;font-weight:700;letter-spacing:.05em;
+  color:#F2FCFF;white-space:nowrap;
+}
+/* Una barra corta no tiene sitio para la etiqueta dentro: sale a su
+   izquierda, que es donde queda espacio libre del eje. */
+.lane-bar.narrow .hrs{position:absolute;right:calc(100% + 14px);color:var(--t70);}
+
+.lane-price{
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-size:17.5px;font-weight:700;text-align:right;color:var(--cyan);white-space:nowrap;
+}
+.lane-price small{
+  display:block;font-size:10px;font-weight:600;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--t50);margin-top:3px;
+}
+
+/* Animación única de la página: los carriles se llenan al entrar en
+   pantalla, uno tras otro. Se anula con prefers-reduced-motion. */
+@media (prefers-reduced-motion: no-preference){
+  .lanes.armed .lane-bar{transform:scaleX(0);}
+  .lanes.armed.go .lane-bar{transform:scaleX(1);transition:transform .8s cubic-bezier(.22,.75,.3,1);}
+  .lanes.armed.go .lane:nth-child(2) .lane-bar{transition-delay:.05s;}
+  .lanes.armed.go .lane:nth-child(3) .lane-bar{transition-delay:.17s;}
+  .lanes.armed.go .lane:nth-child(4) .lane-bar{transition-delay:.29s;}
+  .lanes.armed .lane-bar .hrs{opacity:0;}
+  .lanes.armed.go .lane-bar .hrs{opacity:1;transition:opacity .4s ease .55s;}
+}
+
+.lanes-foot{margin-top:32px;font-size:14px;color:var(--t50);}
+
+@media (max-width:780px){
+  /* Se apila: nombre y precio en la misma línea, la barra debajo a todo
+     el ancho. La colocación es explícita para que el precio no caiga a
+     una fila propia. */
+  .lane{grid-template-columns:1fr auto;gap:4px 14px;}
+  .lane-id{grid-column:1;grid-row:1;}
+  .lane-price{grid-column:2;grid-row:1;font-size:16px;}
+  .lane-price small{margin-top:1px;}
+  .lane-track{grid-column:1 / -1;grid-row:2;height:40px;margin-top:12px;}
+  .lane-axis{grid-template-columns:1fr;}
+  .lane-axis > .spacer,.lane-axis > .pad{display:none;}
+}
+
+/* =====================================================================
+   SECCIONES DE DETALLE
+   ===================================================================== */
+#piscina-libre,#clases,#master{overflow:hidden;isolation:isolate;}
+#piscina-libre > .wrap,#clases > .wrap,#master > .wrap{position:relative;z-index:1;}
+#piscina-libre::before,#clases::before,#master::before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-repeat:no-repeat;background-size:cover;
+  filter:saturate(.85) contrast(1.08);
+}
+#piscina-libre::before{
+  left:28%;
+  background-image:url('galeria-carriles.jpg');
+  background-position:center 58%;
+  opacity:.16;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 42%,#000 100%);
+  mask-image:linear-gradient(90deg,transparent 0%,#000 42%,#000 100%);
+}
+#clases::before{
+  right:18%;
+  background-image:url('galeria-entrenamiento.jpg');
+  background-position:center 48%;
+  opacity:.11;
+  -webkit-mask-image:linear-gradient(90deg,#000 0%,#000 54%,transparent 100%);
+  mask-image:linear-gradient(90deg,#000 0%,#000 54%,transparent 100%);
+}
+#master::before{
+  left:30%;
+  background-image:url('galeria-piscina.jpg');
+  background-position:center 64%;
+  opacity:.14;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 44%,#000 100%);
+  mask-image:linear-gradient(90deg,transparent 0%,#000 44%,#000 100%);
+}
+@media (max-width:780px){
+  #piscina-libre::before,#clases::before,#master::before{
+    inset:0;opacity:.09;
+    -webkit-mask-image:linear-gradient(180deg,#000 0%,rgba(0,0,0,.72) 46%,transparent 100%);
+    mask-image:linear-gradient(180deg,#000 0%,rgba(0,0,0,.72) 46%,transparent 100%);
+  }
+  #clases::before{background-position:center top;}
+}
+.detail{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.detail > *{min-width:0;}
+@media (max-width:900px){.detail{grid-template-columns:1fr;gap:36px;}}
+.detail h2{font-size:clamp(27px,3.6vw,42px);margin:20px 0 16px;}
+.detail .lede{color:var(--t70);font-size:17px;max-width:460px;margin-bottom:32px;}
+
+/* La pizarra: panel de vidrio con regla superior y filas tabulares. */
+.board{
+  background:rgba(255,255,255,0.035);
+  border:1px solid var(--linea);
+  border-top:2px solid var(--cyan);
+  border-radius:2px 2px var(--r) var(--r);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  padding:32px 34px;
+  box-shadow:0 24px 60px rgba(0,0,0,0.30);
+}
+.board h3{
+  font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--cyan);margin-bottom:10px;text-align:center;
+}
+.board-row{
+  display:flex;justify-content:space-between;align-items:baseline;gap:20px;
+  padding:18px 0;border-bottom:1px solid var(--linea);
+}
+.board-row:last-child{border-bottom:none;padding-bottom:0;}
+.board-row .lbl{color:var(--t50);font-size:13px;}
+.board-row .val{
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-weight:700;font-size:16px;text-align:right;overflow-wrap:anywhere;
+}
+
+/* Promoción de piscina libre */
+.promo-board{
+  position:relative;overflow:hidden;
+  border:1px solid rgba(143,231,255,.42);border-top:3px solid #C77DFF;border-radius:3px 3px 18px 18px;
+  background:linear-gradient(140deg,rgba(71,25,119,.72),rgba(22,72,97,.72));
+  box-shadow:0 28px 80px rgba(17,4,42,.58),0 0 36px rgba(122,31,199,.16),inset 0 1px 0 rgba(255,255,255,.12);
+}
+.promo-board::before{
+  content:"";position:absolute;right:-60px;top:-90px;width:240px;height:240px;
+  border-radius:50%;background:rgba(143,231,255,.22);filter:blur(30px);pointer-events:none;
+}
+.promo-board::after{
+  content:"";position:absolute;left:-80px;bottom:-120px;width:230px;height:230px;
+  border-radius:50%;background:rgba(199,125,255,.18);filter:blur(34px);pointer-events:none;
+}
+.promo-board .promo-kicker{
+  position:relative;z-index:1;display:block;width:max-content;margin:0 auto 12px;padding:7px 13px;
+  border-radius:999px;background:linear-gradient(90deg,#C77DFF,#8FE7FF);
+  color:#11162A;font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  box-shadow:0 8px 24px rgba(7,11,24,.26);
+}
+.promo-board h3{
+  position:relative;z-index:1;font-size:22px;letter-spacing:.07em;color:#fff;margin-bottom:18px;
+  text-shadow:0 3px 20px rgba(7,11,24,.48);
+}
+.promo-board .board-row{position:relative;z-index:1;}
+.promo-board .promo-price-row{
+  margin-top:12px;padding:20px 22px;border:1px solid rgba(143,231,255,.46);border-radius:14px;
+  background:rgba(7,11,24,.34);box-shadow:inset 0 1px 0 rgba(255,255,255,.10),0 12px 30px rgba(7,11,24,.20);
+}
+.promo-board .promo-price-row .lbl{
+  color:#E7C6FF;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+}
+.promo-board .promo-price-row .val{
+  color:var(--cyan);font-size:42px;line-height:1;text-shadow:0 0 24px rgba(143,231,255,.28);
+}
+.promo-board .promo-price-row .val small{
+  display:block;margin-top:8px;color:#fff;
+  font-family:'Poppins',sans-serif;font-size:11px;font-weight:700;letter-spacing:.04em;
+  text-shadow:none;
+}
+@media (max-width:620px){
+  .promo-board{padding:28px 22px;}
+  .promo-board .promo-kicker{width:auto;text-align:center;line-height:1.4;}
+  .promo-board h3{font-size:19px;}
+  .promo-board .promo-price-row{align-items:flex-start;flex-direction:column;gap:10px;padding:18px;}
+  .promo-board .promo-price-row .val{text-align:left;font-size:38px;}
+}
+
+/* Horas disponibles */
+.hours{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:30px;}
+.hour{
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-size:13.5px;font-weight:600;
+  padding:10px 15px;border-radius:9px;
+  background:rgba(143,231,255,0.06);border:1px solid rgba(143,231,255,0.20);
+  color:#DCF6FF;
+}
+
+/* Precio por frecuencia semanal */
+.freq{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px;}
+.freq-cell{
+  background:rgba(255,255,255,0.03);border:1px solid var(--linea);
+  border-radius:10px;padding:18px 10px;text-align:center;
+}
+.freq-cell .n{font-size:11px;color:var(--t50);font-weight:600;letter-spacing:.06em;}
+.freq-cell .p{
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-size:22px;font-weight:700;margin-top:6px;
+}
+.freq-cell.highlight{
+  background:linear-gradient(160deg,rgba(143,231,255,0.16),rgba(122,31,199,0.14));
+  border-color:rgba(143,231,255,0.42);
+}
+.freq-cell.highlight .p{color:var(--cyan);}
+.price-period-note{
+  margin:0 auto 14px;color:var(--t70);font-size:11px;font-weight:600;
+  letter-spacing:.06em;text-align:center;
+}
+@media (max-width:620px){.freq{grid-template-columns:1fr;}}
+
+/* Enlaces rápidos entre categorías de clase */
+.age-jump{display:flex;gap:10px;margin-bottom:44px;flex-wrap:wrap;}
+.age-jump a{
+  padding:12px 20px;border-radius:11px;font-size:13px;font-weight:600;
+  background:rgba(255,255,255,0.03);border:1px solid var(--linea);color:var(--t70);
+  transition:border-color .18s ease,color .18s ease,background .18s ease;
+}
+.age-jump a:hover{border-color:rgba(143,231,255,0.5);color:var(--blanco);background:rgba(143,231,255,0.07);}
+.age-panel{margin-bottom:56px;padding-bottom:56px;border-bottom:1px solid var(--linea);scroll-margin-top:96px;}
+.age-panel:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none;}
+.age-panel h3{font-size:23px;margin-bottom:8px;}
+.age-panel .days{color:var(--t50);font-size:13.5px;margin-bottom:22px;}
+
+/* =====================================================================
+   GALERÍA — la sede y la experiencia en imágenes
+   ===================================================================== */
+.gallery-section{
+  padding-top:34px;
+  border-top:1px solid var(--linea);
+}
+.gallery-section .section-head{max-width:720px;}
+.gallery-grid{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  grid-template-rows:repeat(2,minmax(230px,1fr));
+  gap:16px;
+  min-height:600px;
+}
+.gallery-card{
+  position:relative;overflow:hidden;
+  border:1px solid var(--linea-fuerte);border-radius:var(--r);
+  background:var(--ground-deep);
+  box-shadow:0 24px 60px rgba(0,0,0,.24);
+  isolation:isolate;
+}
+.gallery-card:first-child{grid-row:1 / 3;}
+.gallery-card img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .7s cubic-bezier(.2,.65,.25,1),filter .3s ease;
+}
+.gallery-card:first-child img{object-position:center 62%;}
+.gallery-card:nth-child(2) img{object-position:center 56%;}
+.gallery-card:nth-child(3) img{object-position:center 58%;}
+.gallery-card::after{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(180deg,transparent 42%,rgba(5,8,15,.82) 100%);
+}
+.gallery-card figcaption{
+  position:absolute;left:0;right:0;bottom:0;z-index:2;
+  display:flex;align-items:flex-end;justify-content:space-between;gap:18px;
+  padding:24px;color:rgba(255,255,255,.92);
+  font-family:'Archivo','Poppins',sans-serif;font-size:15px;font-weight:600;
+}
+.gallery-card figcaption span{
+  font-family:'Poppins',sans-serif;font-size:10px;font-weight:700;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);white-space:nowrap;
+}
+.gallery-card:hover img{transform:scale(1.035);filter:saturate(1.08);}
+@media (max-width:780px){
+  .gallery-grid{grid-template-columns:1fr;grid-template-rows:none;min-height:0;}
+  .gallery-card,.gallery-card:first-child{grid-row:auto;aspect-ratio:4 / 3;}
+  .gallery-card:last-child{aspect-ratio:16 / 10;}
+}
+@media (max-width:620px){
+  .gallery-section{padding-top:18px;}
+  .gallery-grid{gap:12px;}
+  .gallery-card figcaption{padding:18px;font-size:13.5px;}
+}
+
+/* =====================================================================
+   LA SEDE — foto de la instalación
+   ===================================================================== */
+.edge{position:relative;min-height:460px;display:flex;align-items:flex-end;overflow:hidden;}
+.edge-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 58%;}
+.edge-veil{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(700px 460px at 82% 24%, rgba(122,31,199,0.34), transparent 66%),
+    linear-gradient(180deg, var(--ground) 0%, rgba(7,11,24,0.22) 20%, rgba(7,11,24,0.48) 56%,
+                    rgba(7,11,24,0.86) 86%, var(--ground) 100%);
+}
+.edge-inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin:0 auto;padding:0 28px 50px;}
+.edge-inner h2{font-size:clamp(24px,3.2vw,36px);margin:16px 0 10px;max-width:640px;}
+.edge-inner p{color:rgba(255,255,255,0.82);font-size:16px;}
+@media (max-width:620px){
+  .edge{min-height:340px;}
+  .edge-inner{padding:0 22px 38px;}
+}
+
+/* =====================================================================
+   PREGUNTAS FRECUENTES
+   ===================================================================== */
+#faq .eyebrow,#contacto .eyebrow{color:var(--violeta);}
+.faq-list{display:flex;flex-direction:column;gap:11px;max-width:820px;}
+.faq-item{
+  background:rgba(255,255,255,0.035);
+  border:1px solid rgba(169,41,224,0.20);
+  border-radius:var(--r);overflow:hidden;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  transition:border-color .2s ease,background .2s ease;
+}
+.faq-item:hover{border-color:rgba(169,41,224,0.40);}
+.faq-item[open]{
+  border-color:rgba(169,41,224,0.48);
+  background:linear-gradient(160deg,rgba(122,31,199,0.20),rgba(46,156,190,0.07));
+}
+.faq-item summary{
+  list-style:none;cursor:pointer;padding:22px 26px;
+  display:flex;align-items:center;gap:18px;
+  font-size:16px;font-weight:600;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+/* Cheurón dibujado con dos filos: sin iconografía prestada */
+.faq-item summary::after{
+  content:"";flex:0 0 auto;margin-left:auto;width:9px;height:9px;
+  border-right:1.6px solid var(--violeta);border-bottom:1.6px solid var(--violeta);
+  transform:rotate(45deg) translate(-2px,-2px);
+  transition:transform .25s ease;
+}
+.faq-item[open] summary::after{transform:rotate(-135deg) translate(-2px,-2px);}
+.faq-item .a{padding:0 26px 24px;color:rgba(255,255,255,0.76);font-size:15.5px;}
+@media (max-width:620px){
+  .faq-item summary{padding:18px 20px;font-size:15px;gap:14px;}
+  .faq-item .a{padding:0 20px 20px;}
+}
+
+/* =====================================================================
+   CONTACTO
+   ===================================================================== */
+.contact{
+  display:grid;grid-template-columns:1.15fr 0.85fr;gap:56px;align-items:center;
+  margin-top:92px;padding-top:64px;border-top:1px solid var(--linea);
+}
+@media (max-width:900px){.contact{grid-template-columns:1fr;gap:36px;margin-top:64px;padding-top:48px;}}
+.contact h2{font-size:clamp(25px,3.4vw,36px);margin:18px 0 26px;}
+.contact-info .row{
+  display:flex;gap:20px;align-items:flex-start;
+  padding:16px 0;border-bottom:1px solid var(--linea);
+}
+.contact-info .row:last-child{border-bottom:0;}
+.contact-label{
+  flex:0 0 92px;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--t50);padding-top:5px;
+}
+.contact-value{font-size:15.5px;font-weight:500;line-height:1.5;}
+.contact-card{
+  background:linear-gradient(160deg,rgba(122,31,199,0.22),rgba(29,107,135,0.14));
+  border:1px solid rgba(169,41,224,0.34);
+  border-radius:var(--r);padding:34px;text-align:center;
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  box-shadow:0 24px 64px rgba(0,0,0,0.34);
+}
+.contact-card .kicker{font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;color:var(--violeta);font-weight:700;}
+.contact-card .big-num{
+  font-family:'Archivo',sans-serif;font-variant-numeric:tabular-nums;
+  font-size:31px;font-weight:700;margin:14px 0 24px;letter-spacing:-0.01em;
+}
+.contact-card .btn{width:100%;}
+
+/* =====================================================================
+   PIE
+   ===================================================================== */
+footer{background:var(--ground-deep);border-top:1px solid var(--linea);padding:36px 0;}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;}
+.footer-inner img{height:22px;width:auto;opacity:.85;}
+.footer-inner .fine{color:var(--t50);font-size:13px;}
+.footer-links{display:flex;gap:22px;flex-wrap:wrap;}
+.footer-links a{color:var(--t70);font-size:13.5px;font-weight:500;}
+.footer-links a:hover{color:var(--cyan);}
+
+/* ---------- botón flotante de WhatsApp ---------- */
+.float-wa{
+  position:fixed;right:20px;bottom:20px;z-index:60;
+  width:56px;height:56px;border-radius:18px;
+  background:var(--verde);color:var(--verde-hondo);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 1px 0 rgba(255,255,255,0.3) inset, 0 14px 34px rgba(37,211,102,0.36);
+  transition:transform .16s ease;
+}
+.float-wa svg{width:27px;height:27px;}
+.float-wa:hover{transform:scale(1.07);}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" aria-label="Navegación principal">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top" aria-label="AXT Trujillo — Inicio">
+      <img class="mark" src="data:image/png;base64,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" alt="AXT Trujillo" width="585" height="219">
+      <img class="word" src="data:image/png;base64,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" alt="AquaXtreme Trujillo" width="1236" height="169">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navLinks"><span class="menu-bars" aria-hidden="true"></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#jornada">Horarios</a></li>
+      <li><a href="#piscina-libre">Piscina libre</a></li>
+      <li><a href="#clases">Clases</a></li>
+      <li><a href="#master">Máster</a></li>
+      <li><a href="#faq">Preguntas</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-whatsapp" id="navWaBtn" href="#" target="_blank" rel="noopener">Escríbenos</a>
+    </div>
+  </div>
+</nav>
+<!-- ============ PORTADA ============ -->
+<header class="hero" id="top">
+  <img class="hero-photo" src="piscina-carriles.jpg" width="1080" height="455" fetchpriority="high"
+       alt="Carriles de la piscina semiolímpica de AXT Trujillo, vista desde el borde.">
+  <div class="hero-veil" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Club de natación · Trujillo</span>
+        <h1>Natación en Trujillo.<span class="accent">Tu momento, tu ritmo.</span></h1>
+        <p id="heroSubtitle">Piscina semiolímpica y climatizada en el corazón de Trujillo. Elige tu horario, tu ritmo y tu categoría.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-whatsapp" id="heroWaBtn" href="#" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+          <a class="btn btn-ghost" href="#jornada">Ver horarios y precios</a>
+        </div>
+        <div class="hero-stats" id="heroStats">
+          <div class="stat">25 m semiolímpica</div>
+          <div class="stat">26° – 27° climatizada</div>
+          <div class="stat">Lun a Vie · 6:00 AM – 9:00 PM</div>
+        </div>
+      </div>
+
+      <div class="hero-object">
+        <svg class="cap" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="capTitle" focusable="false">
+          <title id="capTitle">Gorro de natación AXT</title>
+          <defs>
+            <!-- El degradado del gorro va de cyan a morado: la mezcla de
+                 los dos colores de marca, en el objeto de marca. -->
+            <linearGradient id="capBody" x1="14%" y1="4%" x2="86%" y2="100%">
+              <stop offset="0%" stop-color="#B4F0FF"/>
+              <stop offset="38%" stop-color="#3FBBDF"/>
+              <stop offset="72%" stop-color="#2B6FBE"/>
+              <stop offset="100%" stop-color="#7A1FC7"/>
+            </linearGradient>
+            <linearGradient id="capGoggle" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#D3B4FF"/>
+              <stop offset="100%" stop-color="#6C19B4"/>
+            </linearGradient>
+            <radialGradient id="capSheen" cx="30%" cy="22%" r="48%">
+              <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.50"/>
+              <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="188" cy="108" r="21" fill="url(#capGoggle)" stroke="#0A1830" stroke-width="4.5"/>
+          <path d="M 30,120 C 26,60 68,20 128,20 C 188,20 216,64 210,116 C 208,128 196,134 178,135 L 56,135 C 40,134 31,130 30,120 Z"
+                fill="url(#capBody)" stroke="#0A1830" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M 30,120 C 26,60 68,20 128,20 C 188,20 216,64 210,116 C 208,128 196,134 178,135 L 56,135 C 40,134 31,130 30,120 Z"
+                fill="url(#capSheen)"/>
+          <path d="M 40,127 C 80,139 160,139 202,125" stroke="#0A1830" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.30"/>
+          <image href="data:image/png;base64,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" x="92" y="66" width="56" height="21"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ CONTENIDO PRINCIPAL ============ -->
+<main id="main">
+
+<!-- ============ EL DÍA EN EL AGUA — carriles sobre el eje 6 AM – 9 PM ============ -->
+<section class="section-pad" id="jornada">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">El día en el agua</span>
+      <h2>Quince horas de piscina, cinco días a la semana</h2>
+      <p>Cada carril es una modalidad y ocupa las horas en que está disponible. Busca la tuya y escríbenos.</p>
+    </div>
+
+    <div class="lanes" id="lanes">
+      <!-- Contenido estático de respaldo (visible sin JavaScript); se actualiza automáticamente si editas CONFIG -->
+      <div class="lane-axis" aria-hidden="true">
+        <span class="spacer"></span>
+        <div class="axis-track">
+          <i style="left:0%">6 AM</i><i style="left:20%">9</i><i style="left:40%">12 M</i>
+          <i style="left:60%">3</i><i style="left:80%">6</i><i style="left:100%">9 PM</i>
+        </div>
+        <span class="pad"></span>
+      </div>
+
+      <a class="lane" href="#piscina-libre">
+        <div class="lane-id">
+          <span class="lane-name">Piscina libre</span>
+          <span class="lane-when">Lun – Vie</span>
+        </div>
+        <div class="lane-track">
+          <div class="lane-bar" style="--from:0%;--to:0%"><span class="hrs">6:00 AM – 9:00 PM</span></div>
+        </div>
+        <div class="lane-price">S/ 10<small>por día</small></div>
+      </a>
+
+      <a class="lane" href="#clases">
+        <div class="lane-id">
+          <span class="lane-name">Clases de natación</span>
+          <span class="lane-when">Lun – Vie</span>
+        </div>
+        <div class="lane-track">
+          <div class="lane-bar" style="--from:66.67%;--to:0%"><span class="hrs">4:00 – 9:00 PM</span></div>
+        </div>
+        <div class="lane-price">S/ 100<small>desde · al mes</small></div>
+      </a>
+
+      <a class="lane" href="#master">
+        <div class="lane-id">
+          <span class="lane-name">Entrenamiento máster</span>
+          <span class="lane-when">Lun – Vie</span>
+        </div>
+        <div class="lane-track">
+          <div class="lane-bar narrow" style="--from:86.67%;--to:0%"><span class="hrs">7:00 – 9:00 PM</span></div>
+        </div>
+        <div class="lane-price">S/ 200<small>al mes</small></div>
+      </a>
+    </div>
+
+    <p class="lanes-foot">Puedes combinar varias modalidades. Escríbenos y armamos tu horario.</p>
+  </div>
+</section>
+
+<!-- ============ PISCINA LIBRE ============ -->
+<section class="section-pad" id="piscina-libre">
+  <div class="wrap">
+    <div class="detail">
+      <div>
+        <span class="eyebrow">Piscina libre</span>
+        <h2>Tu momento. Tu ritmo.</h2>
+        <p class="lede">Sin clases ni horarios de grupo. Solo tú, tu carril y tu propio paso, en una piscina semiolímpica de 25 metros climatizada todo el año.</p>
+        <a class="cta-line" id="plWaBtn" href="#" target="_blank" rel="noopener">Reservar mi carril</a>
+      </div>
+      <div class="board promo-board">
+        <span class="promo-kicker">Exclusiva por lanzamiento · 2026</span>
+        <h3>Promoción imperdible</h3>
+        <div id="piscinaLibreInfo">
+          <div class="board-row"><span class="lbl">Horario</span><span class="val">Lunes a Viernes · 6:00 AM – 9:00 PM</span></div>
+          <div class="board-row promo-price-row"><span class="lbl">Pago único</span><span class="val">S/ 250<small>piscina libre por todo 2026</small></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLASES ============ -->
+<section class="section-pad" id="clases">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Clases de natación</span>
+      <h2>Aprende y mejora tu nado</h2>
+      <p>Clases para niños, adolescentes, jóvenes y adultos. Elige tus días y tu horario.</p>
+    </div>
+
+    <div class="age-jump" id="ageJump">
+      <a href="#clase-0">Niños y adolescentes</a><a href="#clase-1">Jóvenes y adultos</a>
+    </div>
+    <div id="agePanels">
+      <!-- Contenido estático de respaldo (visible sin JavaScript); se actualiza automáticamente si editas CONFIG -->
+      <div class="age-panel" id="clase-0">
+        <div class="detail">
+          <div>
+            <h3>Niños y adolescentes</h3>
+            <div class="days">Lun – Vie</div>
+            <div class="hours">
+              <span class="hour">4:00 – 5:00 PM</span><span class="hour">5:00 – 6:00 PM</span>
+            </div>
+            <a class="cta-line" href="https://wa.me/51953074693?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20clases%20de%20nataci%C3%B3n%20para%20ni%C3%B1os%20y%20adolescentes." target="_blank" rel="noopener">Inscribirme</a>
+          </div>
+          <div class="board">
+            <h3>Frecuencia semanal</h3>
+            <p class="price-period-note">Todos los precios son pagos mensuales</p>
+            <div class="freq">
+              <div class="freq-cell"><div class="n">1x / semana</div><div class="p">S/ 100</div></div>
+              <div class="freq-cell"><div class="n">2x / semana</div><div class="p">S/ 150</div></div>
+              <div class="freq-cell highlight"><div class="n">3x / semana</div><div class="p">S/ 200</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="age-panel" id="clase-1">
+        <div class="detail">
+          <div>
+            <h3>Jóvenes y adultos</h3>
+            <div class="days">Lun – Vie</div>
+            <div class="hours">
+              <span class="hour">6:00 – 7:00 PM</span><span class="hour">7:00 – 8:00 PM</span><span class="hour">8:00 – 9:00 PM</span>
+            </div>
+            <a class="cta-line" href="https://wa.me/51953074693?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20clases%20de%20nataci%C3%B3n%20para%20j%C3%B3venes%20y%20adultos." target="_blank" rel="noopener">Inscribirme</a>
+          </div>
+          <div class="board">
+            <h3>Frecuencia semanal</h3>
+            <p class="price-period-note">Todos los precios son pagos mensuales</p>
+            <div class="freq">
+              <div class="freq-cell"><div class="n">1x / semana</div><div class="p">S/ 100</div></div>
+              <div class="freq-cell"><div class="n">2x / semana</div><div class="p">S/ 150</div></div>
+              <div class="freq-cell highlight"><div class="n">3x / semana</div><div class="p">S/ 200</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENTRENAMIENTO MÁSTER ============ -->
+<section class="section-pad" id="master">
+  <div class="wrap">
+    <div class="detail">
+      <div>
+        <span class="eyebrow">Entrenamiento máster</span>
+        <h2>Nada con propósito</h2>
+        <p class="lede">Entrenamiento dirigido para nadadores máster que buscan constancia, técnica y resistencia. Las dos últimas horas del día son tuyas.</p>
+        <a class="cta-line" id="masterWaBtn" href="#" target="_blank" rel="noopener">Quiero entrenar</a>
+      </div>
+      <div class="board">
+        <h3>Horario y tarifa</h3>
+        <div id="masterInfo">
+          <div class="board-row"><span class="lbl">Horario</span><span class="val">Lunes a Viernes · 7:00 PM – 9:00 PM</span></div>
+          <div class="board-row"><span class="lbl">Tarifa</span><span class="val">S/ 200 / mes</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section class="section-pad gallery-section" aria-labelledby="galeria-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Conoce AXT Trujillo</span>
+      <h2 id="galeria-title">Un espacio hecho para disfrutar el agua</h2>
+      <p>Instalaciones reales, carriles amplios y una piscina lista para acompañarte en cada etapa de tu entrenamiento.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <figure class="gallery-card">
+        <img src="galeria-piscina.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+             alt="Vista amplia de la piscina semiolímpica y sus carriles en AXT Trujillo.">
+        <figcaption>Piscina semiolímpica de 25 metros <span>La sede</span></figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="galeria-entrenamiento.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+             alt="Nadadores entrenando en los carriles de la piscina de AXT Trujillo.">
+        <figcaption>Entrena a tu propio ritmo <span>En acción</span></figcaption>
+      </figure>
+      <figure class="gallery-card">
+        <img src="galeria-carriles.jpg" width="1071" height="1428" loading="lazy" decoding="async"
+             alt="Carriles de la piscina de AXT Trujillo bajo un cielo despejado.">
+        <figcaption>Carriles listos para ti <span>AXT</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LA SEDE ============ -->
+<section class="edge" id="ubicacion">
+  <img class="edge-photo" src="piscina-sede-atardecer.jpg" width="960" height="540" loading="lazy" decoding="async"
+       alt="Piscina semiolímpica de 25 metros de la Gran Unidad Escolar José Faustino Sánchez Carrión, en Trujillo.">
+  <div class="edge-veil" aria-hidden="true"></div>
+  <div class="edge-inner">
+    <span class="eyebrow">La sede</span>
+    <h2 id="edgeAddress">Gran Unidad Escolar José Faustino Sánchez Carrión</h2>
+    <p id="edgeBlurb">Trujillo, Perú · Abierto Lunes a Viernes de 6:00 AM a 9:00 PM.</p>
+  </div>
+</section>
+
+<!-- ============ PREGUNTAS FRECUENTES Y CONTACTO ============ -->
+<section class="section-pad">
+  <div class="wrap">
+
+    <div id="faq">
+      <div class="section-head">
+        <span class="eyebrow">Preguntas frecuentes</span>
+        <h2>Todo lo que debes saber antes de nadar</h2>
+        <p>Resolvemos tus dudas para que empieces con confianza.</p>
+      </div>
+      <div class="faq-list" id="faqList">
+        <!-- Contenido estático de respaldo (visible sin JavaScript); se actualiza automáticamente si editas CONFIG -->
+        <details class="faq-item" open>
+          <summary>¿Dónde se encuentran ubicados?</summary>
+          <div class="a">En la piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión, Trujillo.</div>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué implementos necesito para comenzar?</summary>
+          <div class="a">Gorro, lentes, sandalias y ropa de baño de licra.</div>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué medidas tiene la piscina?</summary>
+          <div class="a">Piscina semi olímpica de 25 metros de largo.</div>
+        </details>
+        <details class="faq-item">
+          <summary>¿La piscina es temperada?</summary>
+          <div class="a">Sí, es climatizada entre 26° y 27°.</div>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cuál es la edad mínima y máxima?</summary>
+          <div class="a">Niños desde 6 años. Adultos sin límite de edad.</div>
+        </details>
+      </div>
+    </div>
+
+    <div class="contact" id="contacto">
+      <div>
+        <span class="eyebrow">Contacto</span>
+        <h2>Escríbenos y separa tu horario</h2>
+        <div class="contact-info" id="contactInfo">
+          <div class="row"><span class="contact-label">Sede</span><span class="contact-value">Piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión</span></div>
+          <div class="row"><span class="contact-label">Ciudad</span><span class="contact-value">Trujillo, Perú</span></div>
+          <div class="row"><span class="contact-label">WhatsApp</span><span class="contact-value">953 074 693</span></div>
+          <div class="row"><span class="contact-label">Instagram</span><span class="contact-value">@aquaxtremetrujillo</span></div>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="kicker">Respondemos por WhatsApp</div>
+        <div class="big-num" id="contactPhoneBig">953 074 693</div>
+        <a class="btn btn-whatsapp" id="contactWaBtn" href="#" target="_blank" rel="noopener">Abrir WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap footer-inner">
+    <img src="data:image/png;base64,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" alt="AquaXtreme Trujillo" width="1236" height="169">
+    <div class="footer-links">
+      <a href="#piscina-libre">Piscina libre</a>
+      <a href="#clases">Clases</a>
+      <a href="#master">Máster</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="fine" id="footerFine">© 2026 AXT Trujillo · @aquaxtremetrujillo</div>
+  </div>
+</footer>
+
+<a class="float-wa" id="floatWaBtn" href="#" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+
+<script>
+/* =====================================================================
+   ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗
+  ██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝
+  ██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗
+  ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║
+  ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝
+   ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝
+
+  👋 EDITA SOLO ESTE BLOQUE para actualizar la información del sitio.
+  No necesitas tocar el HTML ni el CSS: cambia los valores entre
+  comillas ("...") y guarda el archivo. Al recargar la página en el
+  navegador verás los cambios reflejados en todas las secciones.
+
+  Consejos:
+  - Los precios son texto libre, puedes escribir "S/ 100" o "Gratis".
+  - Para agregar o quitar una pregunta frecuente, copia o borra un
+    bloque { pregunta: "...", respuesta: "..." } completo dentro de faq.
+  - Para agregar un horario extra, copia una línea dentro del arreglo
+    "horarios" siguiendo el mismo formato.
+
+  ⏱ IMPORTANTE — los horarios dibujan la gráfica de carriles
+  La sección "El día en el agua" lee automáticamente las horas que
+  escribas aquí y dibuja con ellas la barra de cada carril. Para que
+  funcione, mantén el formato "H:MM AM – H:MM PM" (con dos puntos y un
+  guion entre las dos horas). Ejemplos válidos:
+      "6:00 AM – 9:00 PM"
+      "4:00 – 5:00 PM"          (la primera hora hereda el PM)
+      "Lunes a Viernes · 7:00 PM – 9:00 PM"
+  Si el formato no se reconoce, el texto igual se muestra: solo se
+  omite la barra de ese carril.
+  ===================================================================== */
+const CONFIG = {
+
+  // ---- Datos generales del club ----
+  club: {
+    nombre: "AXT Trujillo",
+    telefonoWhatsapp: "51953074693",       // con código de país, solo números
+    telefonoVisible: "953 074 693",
+    direccion: "Piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión",
+    ciudad: "Trujillo, Perú",
+    instagram: "@aquaxtremetrujillo",
+  },
+
+  // ---- Textos del Hero (portada) ----
+  hero: {
+    subtitulo: "Piscina semiolímpica y climatizada en el corazón de Trujillo. Elige tu horario, tu ritmo y tu categoría.",
+    stats: [
+      { texto: "25 m semiolímpica" },
+      { texto: "26° – 27° climatizada" },
+      { texto: "Lun a Vie · 6:00 AM – 9:00 PM" },
+    ],
+  },
+
+  // ---- Piscina libre ----
+  piscinaLibre: {
+    horario: "Lunes a Viernes · 6:00 AM – 9:00 PM",
+    precio: "S/ 250",
+    precioDiario: "S/ 10",
+    periodo: "un solo pago",
+    vigencia: "por todo 2026",
+  },
+
+  // ---- Clases de natación ----
+  // Puedes agregar o quitar categorías (ej. "Adultos mayores") copiando
+  // un bloque completo dentro de "categorias".
+  clases: {
+    categorias: [
+      {
+        nombre: "Niños y adolescentes",
+        horarios: ["4:00 – 5:00 PM", "5:00 – 6:00 PM"],
+        dias: "Lun – Vie",
+        precios: [
+          { frecuencia: "1x / semana", precio: "S/ 100" },
+          { frecuencia: "2x / semana", precio: "S/ 150" },
+          { frecuencia: "3x / semana", precio: "S/ 200", destacado: true },
+        ],
+      },
+      {
+        nombre: "Jóvenes y adultos",
+        horarios: ["6:00 – 7:00 PM", "7:00 – 8:00 PM", "8:00 – 9:00 PM"],
+        dias: "Lun – Vie",
+        precios: [
+          { frecuencia: "1x / semana", precio: "S/ 100" },
+          { frecuencia: "2x / semana", precio: "S/ 150" },
+          { frecuencia: "3x / semana", precio: "S/ 200", destacado: true },
+        ],
+      },
+    ],
+  },
+
+  // ---- Entrenamiento máster ----
+  master: {
+    horario: "Lunes a Viernes · 7:00 PM – 9:00 PM",
+    precio: "S/ 200",
+    periodo: "/ mes",
+  },
+
+  // ---- Preguntas frecuentes ----
+  // Agrega, edita o elimina preguntas libremente.
+  faq: [
+    {
+      pregunta: "¿Dónde se encuentran ubicados?",
+      respuesta: "En la piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión, Trujillo.",
+    },
+    {
+      pregunta: "¿Qué implementos necesito para comenzar?",
+      respuesta: "Gorro, lentes, sandalias y ropa de baño de licra.",
+    },
+    {
+      pregunta: "¿Qué medidas tiene la piscina?",
+      respuesta: "Piscina semi olímpica de 25 metros de largo.",
+    },
+    {
+      pregunta: "¿La piscina es temperada?",
+      respuesta: "Sí, es climatizada entre 26° y 27°.",
+    },
+    {
+      pregunta: "¿Cuál es la edad mínima y máxima?",
+      respuesta: "Niños desde 6 años. Adultos sin límite de edad.",
+    },
+  ],
+};
+
+/* =====================================================================
+   A partir de aquí el script solo LEE lo de arriba y arma la página.
+   No hace falta editar nada debajo de esta línea.
+   ===================================================================== */
+(function render(){
+  const $  = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const waLink = (msg) => `https://wa.me/${CONFIG.club.telefonoWhatsapp}${msg ? '?text=' + encodeURIComponent(msg) : ''}`;
+
+  /* ---------------------------------------------------------------
+     Lectura de horarios: convierte "4:00 – 5:00 PM" en minutos del
+     día, para poder dibujar la barra de cada carril.
+     --------------------------------------------------------------- */
+  const RE_RANGO = /(\d{1,2}):(\d{2})\s*([ap])?\.?\s*\.?m?\.?\s*[–—-]\s*(\d{1,2}):(\d{2})\s*([ap])?/i;
+
+  function aMinutos(h, m, mer){
+    h = +h; m = +m;
+    if (mer){
+      mer = mer.toLowerCase();
+      if (mer === 'p' && h !== 12) h += 12;
+      if (mer === 'a' && h === 12) h = 0;
+    } else if (h < 6){
+      h += 12;   // en una piscina que abre a las 6, "4:00" es de la tarde
+    }
+    return h * 60 + m;
+  }
+
+  function leerRango(texto){
+    const r = RE_RANGO.exec(texto || '');
+    if (!r) return null;
+    const mer2 = r[6];
+    const mer1 = r[3] || mer2;          // "4:00 – 5:00 PM": hereda el PM
+    let ini = aMinutos(r[1], r[2], mer1);
+    let fin = aMinutos(r[4], r[5], mer2);
+    if (fin <= ini) fin += 12 * 60;
+    return { ini, fin };
+  }
+
+  function fmtHora(min, conMeridiano){
+    const h = Math.floor(min / 60) % 24, m = min % 60;
+    const h12 = (h % 12) || 12;
+    const txt = h12 + ':' + String(m).padStart(2, '0');
+    return conMeridiano ? txt + ' ' + (h < 12 ? 'AM' : 'PM') : txt;
+  }
+
+  // Rango de cada modalidad
+  const rLibre  = leerRango(CONFIG.piscinaLibre.horario);
+  const rMaster = leerRango(CONFIG.master.horario);
+  const rClases = (function(){
+    const todos = CONFIG.clases.categorias
+      .flatMap(c => (c.horarios || []).map(leerRango))
+      .filter(Boolean);
+    if (!todos.length) return null;
+    return { ini: Math.min(...todos.map(x => x.ini)), fin: Math.max(...todos.map(x => x.fin)) };
+  })();
+
+  const sinSlash = (p) => String(p || '').replace(/^\s*\/\s*/, 'al ').trim() || 'al mes';
+
+  const carriles = [
+    { href:'#piscina-libre', nombre:'Piscina libre',        dias:'Lun – Vie', rango:rLibre,
+      precio:CONFIG.piscinaLibre.precioDiario, nota:'por día' },
+    { href:'#clases',        nombre:'Clases de natación',   dias:CONFIG.clases.categorias[0]?.dias || 'Lun – Vie', rango:rClases,
+      precio:CONFIG.clases.categorias[0]?.precios[0]?.precio || '', nota:'desde · al mes' },
+    { href:'#master',        nombre:'Entrenamiento máster', dias:'Lun – Vie', rango:rMaster,
+      precio:CONFIG.master.precio, nota:sinSlash(CONFIG.master.periodo) },
+  ];
+
+  /* ---------------------------------------------------------------
+     El día en el agua — el eje se calcula a partir de los horarios
+     reales, así que se ajusta solo si cambias las horas arriba.
+     --------------------------------------------------------------- */
+  const lanesEl = $('lanes');
+  const conRango = carriles.filter(c => c.rango);
+
+  if (lanesEl && conRango.length){
+    const EJE_INI = Math.floor(Math.min(...conRango.map(c => c.rango.ini)) / 60) * 60;
+    const EJE_FIN = Math.ceil( Math.max(...conRango.map(c => c.rango.fin)) / 60) * 60;
+    const SPAN = Math.max(60, EJE_FIN - EJE_INI);
+    const pct = (min) => Math.min(100, Math.max(0, (min - EJE_INI) / SPAN * 100));
+
+    // marcas del eje: unas 6, en horas redondas
+    const horas = SPAN / 60;
+    const paso = Math.max(1, Math.round(horas / 5));
+    const marcas = [];
+    for (let m = EJE_INI; m < EJE_FIN; m += paso * 60) marcas.push(m);
+    if (marcas[marcas.length - 1] !== EJE_FIN) marcas.push(EJE_FIN);
+
+    const rotulo = (min, primera, ultima) => {
+      const h = Math.floor(min / 60) % 24;
+      if (primera || ultima) return (h % 12 || 12) + ' ' + (h < 12 ? 'AM' : 'PM');
+      if (h === 12) return '12 M';
+      return String(h % 12 || 12);
+    };
+
+    const ejeHTML = marcas.map((m, i) => {
+      const p = pct(m);
+      return `<i style="left:${p.toFixed(2)}%">${rotulo(m, i === 0, i === marcas.length - 1)}</i>`;
+    }).join('');
+
+    const carrilesHTML = carriles.map(c => {
+      let track = '<div class="lane-track"></div>';
+      if (c.rango){
+        const from = pct(c.rango.ini);
+        const to   = 100 - pct(c.rango.fin);
+        const ancho = 100 - from - to;
+        // La hora de inicio lleva su meridiano solo si difiere del final;
+        // si no, "6:00 – 9:00 PM" se leería como las seis de la tarde.
+        const cruzaMediodia = (c.rango.ini < 720) !== (c.rango.fin < 720);
+        const etiqueta = fmtHora(c.rango.ini, cruzaMediodia) + ' – ' + fmtHora(c.rango.fin, true);
+        track = `<div class="lane-track">
+            <div class="lane-bar${ancho < 24 ? ' narrow' : ''}" style="--from:${from.toFixed(2)}%;--to:${to.toFixed(2)}%">
+              <span class="hrs">${esc(etiqueta)}</span>
+            </div>
+          </div>`;
+      }
+      return `<a class="lane" href="${c.href}">
+          <div class="lane-id">
+            <span class="lane-name">${esc(c.nombre)}</span>
+            <span class="lane-when">${esc(c.dias)}</span>
+          </div>
+          ${track}
+          <div class="lane-price">${esc(c.precio)}<small>${esc(c.nota)}</small></div>
+        </a>`;
+    }).join('');
+
+    lanesEl.innerHTML = `<div class="lane-axis" aria-hidden="true">
+        <span class="spacer"></span><div class="axis-track">${ejeHTML}</div><span class="pad"></span>
+      </div>${carrilesHTML}`;
+
+    // Única animación de la página: los carriles se llenan al entrar en
+    // pantalla. El CSS la ignora si el sistema pide menos movimiento.
+    lanesEl.classList.add('armed');
+    if ('IntersectionObserver' in window){
+      const obs = new IntersectionObserver((entradas) => {
+        entradas.forEach(e => {
+          if (e.isIntersecting){ lanesEl.classList.add('go'); obs.disconnect(); }
+        });
+      }, { threshold: 0.15 });
+      obs.observe(lanesEl);
+    } else {
+      lanesEl.classList.add('go');
+    }
+  }
+
+  // ---- Botones de WhatsApp ----
+  document.querySelectorAll('#navWaBtn,#heroWaBtn,#floatWaBtn').forEach(el => {
+    el.href = waLink(`Hola, quiero información sobre ${CONFIG.club.nombre}.`);
+  });
+  $('plWaBtn').href      = waLink('Hola, quiero reservar un carril en piscina libre.');
+  $('masterWaBtn').href  = waLink('Hola, quiero información sobre entrenamiento máster.');
+  $('contactWaBtn').href = waLink(`Hola, quiero información sobre ${CONFIG.club.nombre}.`);
+
+  // ---- Portada ----
+  $('heroSubtitle').textContent = CONFIG.hero.subtitulo;
+  $('heroStats').innerHTML = CONFIG.hero.stats
+    .map(s => `<div class="stat">${esc(s.texto)}</div>`).join('');
+
+  // ---- Piscina libre ----
+  $('piscinaLibreInfo').innerHTML = `
+    <div class="board-row"><span class="lbl">Horario</span><span class="val">${esc(CONFIG.piscinaLibre.horario)}</span></div>
+    <div class="board-row promo-price-row"><span class="lbl">Pago único</span><span class="val">${esc(CONFIG.piscinaLibre.precio)}<small>piscina libre ${esc(CONFIG.piscinaLibre.vigencia)}</small></span></div>
+  `;
+
+  // ---- Entrenamiento máster ----
+  $('masterInfo').innerHTML = `
+    <div class="board-row"><span class="lbl">Horario</span><span class="val">${esc(CONFIG.master.horario)}</span></div>
+    <div class="board-row"><span class="lbl">Tarifa</span><span class="val">${esc(CONFIG.master.precio)} ${esc(CONFIG.master.periodo)}</span></div>
+  `;
+
+  // ---- Clases: se muestran todas las categorías, con enlaces rápidos ----
+  $('ageJump').innerHTML = CONFIG.clases.categorias
+    .map((c, i) => `<a href="#clase-${i}">${esc(c.nombre)}</a>`).join('');
+
+  $('agePanels').innerHTML = CONFIG.clases.categorias.map((c, i) => `
+    <div class="age-panel" id="clase-${i}">
+      <div class="detail">
+        <div>
+          <h3>${esc(c.nombre)}</h3>
+          <div class="days">${esc(c.dias)}</div>
+          <div class="hours">${c.horarios.map(h => `<span class="hour">${esc(h)}</span>`).join('')}</div>
+          <a class="cta-line" href="${waLink('Hola, quiero información sobre clases de natación para ' + c.nombre.toLowerCase() + '.')}" target="_blank" rel="noopener">Inscribirme</a>
+        </div>
+        <div class="board">
+          <h3>Frecuencia semanal</h3>
+          <p class="price-period-note">Todos los precios son pagos mensuales</p>
+          <div class="freq">
+            ${c.precios.map(p => `
+              <div class="freq-cell ${p.destacado ? 'highlight' : ''}">
+                <div class="n">${esc(p.frecuencia)}</div>
+                <div class="p">${esc(p.precio)}</div>
+              </div>`).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  // ---- Preguntas frecuentes ----
+  $('faqList').innerHTML = CONFIG.faq.map((f, i) => `
+    <details class="faq-item" ${i === 0 ? 'open' : ''}>
+      <summary>${esc(f.pregunta)}</summary>
+      <div class="a">${esc(f.respuesta)}</div>
+    </details>
+  `).join('');
+
+  // ---- Sede y contacto ----
+  $('edgeAddress').textContent = CONFIG.club.direccion;
+  $('edgeBlurb').textContent   = `${CONFIG.club.ciudad} · Abierto ${CONFIG.piscinaLibre.horario.replace(/\s*·\s*/, ' de ')}.`;
+  $('contactInfo').innerHTML = `
+    <div class="row"><span class="contact-label">Sede</span><span class="contact-value">${esc(CONFIG.club.direccion)}</span></div>
+    <div class="row"><span class="contact-label">Ciudad</span><span class="contact-value">${esc(CONFIG.club.ciudad)}</span></div>
+    <div class="row"><span class="contact-label">WhatsApp</span><span class="contact-value">${esc(CONFIG.club.telefonoVisible)}</span></div>
+    <div class="row"><span class="contact-label">Instagram</span><span class="contact-value">${esc(CONFIG.club.instagram)}</span></div>
+  `;
+  $('contactPhoneBig').textContent = CONFIG.club.telefonoVisible;
+  $('footerFine').textContent = `© ${new Date().getFullYear()} ${CONFIG.club.nombre} · ${CONFIG.club.instagram}`;
+
+  // ---- Menú móvil ----
+  const navToggle  = $('navToggle');
+  const navLinksEl = $('navLinks');
+  navToggle.addEventListener('click', () => {
+    const abierto = navLinksEl.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', abierto ? 'true' : 'false');
+  });
+  document.querySelectorAll('#navLinks a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinksEl.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Restaura el destino si la página se abrió directamente con un enlace interno.
+  if (window.location.hash){
+    requestAnimationFrame(() => {
+      document.querySelector(window.location.hash)?.scrollIntoView({ block: 'start' });
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

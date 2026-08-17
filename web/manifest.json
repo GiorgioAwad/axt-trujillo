@@ -1,0 +1,23 @@
+{
+  "name": "AXT Trujillo — Natación en Trujillo",
+  "short_name": "AXT Trujillo",
+  "description": "Piscina libre, clases de natación y entrenamiento máster en Trujillo, Perú.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0E16",
+  "theme_color": "#0A0E16",
+  "lang": "es-PE",
+  "icons": [
+    {
+      "src": "favicon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
