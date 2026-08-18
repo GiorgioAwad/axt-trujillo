@@ -10,20 +10,22 @@
      actualiza también las mismas constantes dentro de CONFIG (más abajo)
      y en los archivos robots.txt / sitemap.xml / manifest.json.
      ===================================================================== -->
-<!-- PENDIENTE DE COMPLETAR: reemplazar por el dominio oficial cuando el sitio esté publicado -->
-<!-- Dominio oficial usado en canonical, Open Graph y JSON-LD: https://www.nataciontrujillo.pe/ -->
+<!-- Dominio oficial usado en canonical, Open Graph y JSON-LD: https://nataciontrujillo.pe/ -->
 
 <title>Clases de Natación en Trujillo | AXT Trujillo</title>
-<meta name="description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada (26°–27°). Horarios flexibles de 6 AM a 9 PM.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.nataciontrujillo.pe/">
+<meta name="description" content="Clases de natación para niños y adultos, piscina libre y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, de lunes a viernes.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://nataciontrujillo.pe/">
+<link rel="alternate" hreflang="es-PE" href="https://nataciontrujillo.pe/">
+<link rel="alternate" hreflang="x-default" href="https://nataciontrujillo.pe/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Clases de Natación en Trujillo | AXT Trujillo">
 <meta property="og:description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, horarios flexibles de 6 AM a 9 PM.">
-<meta property="og:url" content="https://www.nataciontrujillo.pe/">
-<meta property="og:image" content="https://www.nataciontrujillo.pe/og-image.png">
+<meta property="og:url" content="https://nataciontrujillo.pe/">
+<meta property="og:image" content="https://nataciontrujillo.pe/og-image.png">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="AXT Trujillo — piscina libre, clases de natación y entrenamiento máster">
@@ -34,7 +36,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Clases de Natación en Trujillo | AXT Trujillo">
 <meta name="twitter:description" content="Piscina libre, clases de natación y entrenamiento máster en Trujillo. Piscina semiolímpica climatizada, horarios flexibles de 6 AM a 9 PM.">
-<meta name="twitter:image" content="https://www.nataciontrujillo.pe/og-image.png">
+<meta name="twitter:image" content="https://nataciontrujillo.pe/og-image.png">
 <meta name="twitter:image:alt" content="AXT Trujillo — piscina libre, clases de natación y entrenamiento máster">
 
 <!-- Favicon (embebido como data-URI para mantener el archivo autocontenido) -->
@@ -63,16 +65,25 @@
   "@graph": [
     {
       "@type": "SportsActivityLocation",
-      "@id": "https://www.nataciontrujillo.pe/#negocio",
+      "@id": "https://nataciontrujillo.pe/#negocio",
       "name": "AXT Trujillo",
       "alternateName": "AquaXtreme Trujillo",
       "description": "Club de natación en Trujillo con piscina libre, clases de natación para niños, adolescentes, jóvenes y adultos, y entrenamiento máster. Piscina semiolímpica de 25 metros, climatizada entre 26° y 27°.",
-      "url": "https://www.nataciontrujillo.pe/",
+      "url": "https://nataciontrujillo.pe/",
       "telephone": "+51953074693",
-      "email": "PENDIENTE DE COMPLETAR",
-      "image": "https://www.nataciontrujillo.pe/og-image.png",
-      "logo": "PENDIENTE DE COMPLETAR",
+      "image": [
+        "https://nataciontrujillo.pe/og-image.png",
+        "https://nataciontrujillo.pe/galeria-piscina.jpg",
+        "https://nataciontrujillo.pe/piscina-sede-atardecer.jpg"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nataciontrujillo.pe/favicon-180.png",
+        "width": 180,
+        "height": 180
+      },
       "priceRange": "S/ 100 - S/ 250",
+      "currenciesAccepted": "PEN",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Gran Unidad Escolar José Faustino Sánchez Carrión",
@@ -85,6 +96,16 @@
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
         "opens": "06:00",
         "closes": "21:00"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Trujillo"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+51953074693",
+        "contactType": "customer service",
+        "availableLanguage": "Spanish"
       },
       "sameAs": [
         "https://www.instagram.com/aquaxtremetrujillo"
@@ -126,11 +147,27 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.nataciontrujillo.pe/#website",
-      "url": "https://www.nataciontrujillo.pe/",
+      "@id": "https://nataciontrujillo.pe/#website",
+      "url": "https://nataciontrujillo.pe/",
       "name": "AXT Trujillo",
       "inLanguage": "es-PE",
-      "publisher": { "@id": "https://www.nataciontrujillo.pe/#negocio" }
+      "publisher": { "@id": "https://nataciontrujillo.pe/#negocio" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nataciontrujillo.pe/#pagina",
+      "url": "https://nataciontrujillo.pe/",
+      "name": "Clases de Natación en Trujillo | AXT Trujillo",
+      "description": "Clases de natación para niños y adultos, piscina libre y entrenamiento máster en Trujillo.",
+      "inLanguage": "es-PE",
+      "isPartOf": { "@id": "https://nataciontrujillo.pe/#website" },
+      "about": { "@id": "https://nataciontrujillo.pe/#negocio" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://nataciontrujillo.pe/og-image.png",
+        "width": 1200,
+        "height": 630
+      }
     },
     {
       "@type": "FAQPage",
@@ -871,6 +908,7 @@ main{
 }
 @media (max-width:900px){.contact{grid-template-columns:1fr;gap:36px;margin-top:64px;padding-top:48px;}}
 .contact h2{font-size:clamp(25px,3.4vw,36px);margin:18px 0 26px;}
+.contact-info{font-style:normal;}
 .contact-info .row{
   display:flex;gap:20px;align-items:flex-start;
   padding:16px 0;border-bottom:1px solid var(--linea);
@@ -880,7 +918,9 @@ main{
   flex:0 0 92px;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;
   color:var(--t50);padding-top:5px;
 }
-.contact-value{font-size:15.5px;font-weight:500;line-height:1.5;}
+.contact-value{font-size:15.5px;font-weight:500;line-height:1.5;color:var(--blanco);}
+a.contact-value{text-decoration:underline;text-decoration-color:rgba(143,231,255,.45);text-underline-offset:4px;}
+a.contact-value:hover{color:var(--cyan);text-decoration-color:currentColor;}
 .contact-card{
   background:linear-gradient(160deg,rgba(122,31,199,0.22),rgba(29,107,135,0.14));
   border:1px solid rgba(169,41,224,0.34);
@@ -1067,7 +1107,7 @@ footer{background:var(--ground-deep);border-top:1px solid var(--linea);padding:3
     <div class="detail">
       <div>
         <span class="eyebrow">Piscina libre</span>
-        <h2>Tu momento. Tu ritmo.</h2>
+        <h2>Piscina libre en Trujillo, a tu ritmo</h2>
         <p class="lede">Sin clases ni horarios de grupo. Solo tú, tu carril y tu propio paso, en una piscina semiolímpica de 25 metros climatizada todo el año.</p>
         <a class="cta-line" id="plWaBtn" href="#" target="_blank" rel="noopener">Reservar mi carril</a>
       </div>
@@ -1088,7 +1128,7 @@ footer{background:var(--ground-deep);border-top:1px solid var(--linea);padding:3
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">Clases de natación</span>
-      <h2>Aprende y mejora tu nado</h2>
+      <h2>Clases de natación para todas las edades</h2>
       <p>Clases para niños, adolescentes, jóvenes y adultos. Elige tus días y tu horario.</p>
     </div>
 
@@ -1149,7 +1189,7 @@ footer{background:var(--ground-deep);border-top:1px solid var(--linea);padding:3
     <div class="detail">
       <div>
         <span class="eyebrow">Entrenamiento máster</span>
-        <h2>Nada con propósito</h2>
+        <h2>Entrenamiento máster de natación</h2>
         <p class="lede">Entrenamiento dirigido para nadadores máster que buscan constancia, técnica y resistencia. Las dos últimas horas del día son tuyas.</p>
         <a class="cta-line" id="masterWaBtn" href="#" target="_blank" rel="noopener">Quiero entrenar</a>
       </div>
@@ -1244,12 +1284,12 @@ footer{background:var(--ground-deep);border-top:1px solid var(--linea);padding:3
       <div>
         <span class="eyebrow">Contacto</span>
         <h2>Escríbenos y separa tu horario</h2>
-        <div class="contact-info" id="contactInfo">
+        <address class="contact-info" id="contactInfo">
           <div class="row"><span class="contact-label">Sede</span><span class="contact-value">Piscina de la Gran Unidad Escolar José Faustino Sánchez Carrión</span></div>
           <div class="row"><span class="contact-label">Ciudad</span><span class="contact-value">Trujillo, Perú</span></div>
-          <div class="row"><span class="contact-label">WhatsApp</span><span class="contact-value">953 074 693</span></div>
-          <div class="row"><span class="contact-label">Instagram</span><span class="contact-value">@aquaxtremetrujillo</span></div>
-        </div>
+          <div class="row"><span class="contact-label">WhatsApp</span><a class="contact-value" href="tel:+51953074693">953 074 693</a></div>
+          <div class="row"><span class="contact-label">Instagram</span><a class="contact-value" href="https://www.instagram.com/aquaxtremetrujillo" target="_blank" rel="noopener">@aquaxtremetrujillo</a></div>
+        </address>
       </div>
       <div class="contact-card">
         <div class="kicker">Respondemos por WhatsApp</div>
@@ -1617,8 +1657,8 @@ const CONFIG = {
   $('contactInfo').innerHTML = `
     <div class="row"><span class="contact-label">Sede</span><span class="contact-value">${esc(CONFIG.club.direccion)}</span></div>
     <div class="row"><span class="contact-label">Ciudad</span><span class="contact-value">${esc(CONFIG.club.ciudad)}</span></div>
-    <div class="row"><span class="contact-label">WhatsApp</span><span class="contact-value">${esc(CONFIG.club.telefonoVisible)}</span></div>
-    <div class="row"><span class="contact-label">Instagram</span><span class="contact-value">${esc(CONFIG.club.instagram)}</span></div>
+    <div class="row"><span class="contact-label">WhatsApp</span><a class="contact-value" href="tel:+${esc(CONFIG.club.telefonoWhatsapp)}">${esc(CONFIG.club.telefonoVisible)}</a></div>
+    <div class="row"><span class="contact-label">Instagram</span><a class="contact-value" href="https://www.instagram.com/aquaxtremetrujillo" target="_blank" rel="noopener">${esc(CONFIG.club.instagram)}</a></div>
   `;
   $('contactPhoneBig').textContent = CONFIG.club.telefonoVisible;
   $('footerFine').textContent = `© ${new Date().getFullYear()} ${CONFIG.club.nombre} · ${CONFIG.club.instagram}`;

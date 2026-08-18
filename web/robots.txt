@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.nataciontrujillo.pe/sitemap.xml
+# Buscador de ChatGPT: permitido explícitamente para facilitar citas y enlaces.
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://nataciontrujillo.pe/sitemap.xml
